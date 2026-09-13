@@ -1,0 +1,53 @@
+@startuml
+!theme plain
+autonumber
+
+actor "Usuario" as U
+participant "React Native\n(TransferBundle)" as RN
+participant "SecurityBridgeModule" as SBM
+participant "SessionManager" as SM
+participant "CryptoUtil\n(Android Keystore)" as Crypto
+participant "MainActivity" as MA
+
+U -> RN : Ingresa Número Destino y Monto
+activate RN
+
+RN -> RN : Valida datos (Longitud, formato)
+RN -> RN : Cifra payload con cryptoUtils.ts
+RN -> SBM : sendNativeEvent('PROCESS_TRANSFER', payload)
+activate SBM
+
+SBM -> SM : isSessionValid()
+activate SM
+SM --> SBM : true (Sesión Activa)
+deactivate SM
+
+SBM -> Crypto : decrypt(payload)
+activate Crypto
+Crypto --> SBM : Datos planos en JSON
+deactivate Crypto
+
+SBM -> SBM : Verifica que Saldo Actual > Monto
+SBM -> SBM : Resta el monto del saldo
+SBM -> SBM : Agrega nuevo registro a "movements"
+
+SBM -> Crypto : encrypt(updatedSessionJSON)
+activate Crypto
+Crypto --> SBM : encryptedSessionPayload
+deactivate Crypto
+
+SBM -> SM : saveSession(encryptedSessionPayload)
+activate SM
+SM --> SBM : void
+deactivate SM
+
+SBM -> U : AlertDialog Nativo\n"Transacción Exitosa"
+
+SBM -> MA : Construye Intent con "HomeBundle"
+activate MA
+MA --> RN : Reemplaza vista actual (ReactActivityDelegate)
+deactivate MA
+deactivate SBM
+deactivate RN
+
+@enduml

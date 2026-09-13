@@ -1,0 +1,55 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+local_npm/
+
+# macOS
+.DS_Store
+
+# React Native
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Android/IntelliJ
+# Build artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+build/
+gen/
+out/
+gradlew.bat
+local.properties
+.idea/
+.gradle/
+*.iml
+android/app/build/
+android/.gradle/
+android/build/
+android/app/src/main/assets/index.android.bundle
+
+# iOS
+*.xcworkspace
+*.xcuserdatad
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.suo
+*.user
+*.userosscache
+*.sln
+*.supp
+xcuserdata
+ios/build/
+*.hmap
+*.ipa

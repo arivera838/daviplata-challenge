@@ -1,0 +1,1559 @@
+--------- beginning of main
+09-12 17:07:18.743  1270  2344 I NearbyDiscovery: FastPair: isDestroyable: Scanner is alive. [CONTEXT service_id=265 ]
+09-12 17:07:18.743  1270  2344 I NearbyDiscovery: DiscoveryService: Skip stopSelf(), fast pair controller is not destroyable. [CONTEXT service_id=265 ]
+--------- beginning of system
+09-12 17:07:19.144   664   800 D ActivityManager: freezing 3099 com.android.vending:background
+09-12 17:07:19.503   664   800 D ActivityManager: freezing 1903 com.android.vending
+09-12 17:07:19.508   664   850 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-12 17:07:19.509   664   850 D InetDiagMessage: Destroyed 2 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-12 17:07:19.509   664   850 D InetDiagMessage: Destroyed live tcp sockets for uids={10144} in 1ms
+09-12 17:07:19.698   664   800 D ActivityManager: freezing 1808 com.google.android.googlequicksearchbox:search
+09-12 17:07:19.924  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:07:20.305   245  7078 I keystore2: system/security/keystore2/watchdog/src/lib.rs:377 - Watchdog thread idle -> terminating. Have a great day.
+09-12 17:07:24.728  1270  1270 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-12 17:07:24.772  1270  1270 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+09-12 17:07:26.088  1578  1809 I bdee    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+09-12 17:07:29.495   664   800 D ActivityManager: freezing 1368 com.google.android.permissioncontroller
+09-12 17:07:29.497   664   850 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-12 17:07:29.497   664   850 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-12 17:07:29.497   664   850 D InetDiagMessage: Destroyed live tcp sockets for uids={10197} in 1ms
+09-12 17:07:29.924  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:07:31.118  1270  1270 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+09-12 17:07:35.160   664   791 D ActivityManager: sync unfroze 1903 com.android.vending for 6
+09-12 17:07:35.181   664  1021 W ProcessStats: Tracking association SourceState{4124f05 system/1000 ImpBg #4957} whose proc state 6 is better than process ProcessState{1a1a4c2 com.android.vending/10144 pkg=com.android.vending} proc state 14 (1 skipped)
+09-12 17:07:35.183  1903  1903 I Finsky  : [2] SCH: job service start with id 9313.
+09-12 17:07:35.191  1903  6998 I Finsky  : [292] SCH: Satisfied jobs for 9313 are: 12-1
+09-12 17:07:35.193  1903  7097 I Finsky  : [298] SCH: Job 12-1 starting
+09-12 17:07:35.193  1903  1903 I Finsky  : [2] WM::SCH: Logging work start for 12-1
+09-12 17:07:35.193  1903  1903 I Finsky  : [2] [ContentSync] job started
+09-12 17:07:35.227  1903  7098 E Finsky  : [299] [Counters] attempted to use a non-positive increment for: 9200
+09-12 17:07:35.227  1903  7098 I Finsky  : [299] App states replicator found 5 unowned apps
+09-12 17:07:35.231  1903  2241 I Finsky  : [53] Completed 0 account content syncs with 0 successful.
+09-12 17:07:35.231  1903  1903 I Finsky  : [2] [ContentSync] Installation state replication succeeded.
+09-12 17:07:35.231  1903  1903 I Finsky  : [2] SCH: jobFinished: 12-1. TimeElapsed: 38ms.
+09-12 17:07:35.231  1903  1903 I Finsky  : [2] WM::SCH: Logging work end for 12-1
+09-12 17:07:35.241  1903  2241 I Finsky  : [53] SCH: Scheduling phonesky job Id: 1-1337, CT: 1789245170817, Constraints: [{ L: 14399999, D: 49103911, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+09-12 17:07:35.243  1903  2224 I Finsky  : [52] SCH: Scheduling 1 system job(s)
+09-12 17:07:35.243  1903  2224 I Finsky  : [52] SCH: Scheduling system job Id: 9316, L: 8715573, D: 43419485, C: false, I: false, N: 1
+09-12 17:07:35.245  1903  7097 I Finsky  : [298] SCH: job service finished with id 9313.
+09-12 17:07:35.248  1903  1903 I Finsky  : [2] Memory trim requested to level 40
+09-12 17:07:35.248  1903  1903 I Finsky  : [2] Flushing in-memory image cache
+09-12 17:07:39.926  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:07:42.041   664  1021 D WifiNl80211Manager: Scan result ready event
+09-12 17:07:42.041   664  1021 D WifiNative: Scan result ready event
+09-12 17:07:42.044  1270  1586 I WifiScanner: onFullResults
+09-12 17:07:42.044  1270  2754 I WifiScanner: onFullResults
+09-12 17:07:42.049   664   844 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+09-12 17:07:45.259   664   800 D ActivityManager: freezing 1903 com.android.vending
+09-12 17:07:45.263   664   850 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-12 17:07:45.264   664   850 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-12 17:07:45.264   664   850 D InetDiagMessage: Destroyed live tcp sockets for uids={10144} in 1ms
+09-12 17:07:48.724   664   800 D ActivityManager: freezing 1164 com.android.settings
+09-12 17:07:48.728   664   800 D ActivityManager: freezing 1723 com.android.keychain
+09-12 17:07:48.730   664   800 D ActivityManager: freezing 2575 com.android.dynsystem:dynsystem
+09-12 17:07:48.732   664   800 D ActivityManager: freezing 2516 com.android.dynsystem
+09-12 17:07:48.735   664   800 D ActivityManager: freezing 2113 com.android.localtransport
+09-12 17:07:49.925  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:07:59.938  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:08:08.812   664  2175 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=2759650 mSleepTimeMs=378 mIdleTimeMs=126 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[9, 27, 54, 72, 81],mRxTimeMs=81}]}
+09-12 17:08:09.259   497   497 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#821 parentId=228} producedId=28 frameNumber=68 -> producedId=28 frameNumber=31
+09-12 17:08:09.730  1270  1270 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+09-12 17:08:09.931  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:08:19.931  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:08:26.127  1578  1809 I bdee    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+09-12 17:08:29.937  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:08:39.932  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:08:49.930  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:08:59.946  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:09:09.242   497   497 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#821 parentId=228} producedId=28 frameNumber=68 -> producedId=28 frameNumber=32
+09-12 17:09:09.933  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:09:18.829  6543  6597 W ScanManager: Moving filtered scan client to downgraded scan (scannerId 1)
+09-12 17:09:18.883  6543  6597 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer stopped
+09-12 17:09:18.923  6543  6582 I bluetooth: system/gd/hci/le_address_manager.cc:278 unregister_client: Client unregistered
+09-12 17:09:18.924  6543  6582 I bluetooth: system/gd/hci/le_address_manager.cc:293 unregister_client: Cancelled address rotation alarm
+09-12 17:09:18.933  6543  6597 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:311 SetScanParameters: in shim layer, scannerId1m=1, scannerIdCoded=0
+09-12 17:09:18.933  6543  6597 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer started
+09-12 17:09:18.943  6543  6582 I bluetooth: system/gd/hci/le_scanning_manager.cc:601 stop_scan: Scanning already stopped, return!
+09-12 17:09:18.971  6543  6582 I bluetooth: system/gd/hci/le_address_manager.cc:576 GetNextPrivateAddressIntervalRange: client=LeAddressManager, nonwake=7m36s, wake=14m44s
+09-12 17:09:18.971  6543  6582 I bluetooth: system/gd/hci/le_address_manager.cc:259 register_client: Scheduled address rotation for first client registered
+09-12 17:09:18.971  6543  6582 I bluetooth: system/gd/hci/le_address_manager.cc:263 register_client: Client registered
+09-12 17:09:18.976  6543  6582 F bluetooth: system/gd/hci/hci_layer.cc:527 on_hardware_error: Hardware Error Event with code 0x42
+--------- beginning of crash
+09-12 17:09:18.977  6543  6582 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 6582 (bt_stack_manage), pid 6543 (droid.bluetooth)
+09-12 17:09:19.158  7105  7105 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+09-12 17:09:19.167   274   274 I tombstoned: received crash request for pid 6582
+09-12 17:09:19.170  7105  7105 I crash_dump64: performing dump of process 6543 (target tid = 6582)
+09-12 17:09:19.183  7105  7105 E DEBUG   : failed to read process info: failed to open /proc/6543: No such file or directory
+09-12 17:09:19.944  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:09:20.312  7105  7105 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-12 17:09:20.312  7105  7105 F DEBUG   : Build fingerprint: 'google/sdk_gphone16k_arm64/emu64a16k:16/BE2A.250530.026.F3/13894323:user/dev-keys'
+09-12 17:09:20.312  7105  7105 F DEBUG   : Revision: '0'
+09-12 17:09:20.312  7105  7105 F DEBUG   : ABI: 'arm64'
+09-12 17:09:20.312  7105  7105 F DEBUG   : Timestamp: 2026-09-12 17:09:19.182692501-0500
+09-12 17:09:20.312  7105  7105 F DEBUG   : Process uptime: 0s
+09-12 17:09:20.312  7105  7105 F DEBUG   : Page size: 16384 bytes
+09-12 17:09:20.312  7105  7105 F DEBUG   : Cmdline: com.google.android.bluetooth
+09-12 17:09:20.312  7105  7105 F DEBUG   : pid: 6543, tid: 6582, name: bt_stack_manage  >>> com.google.android.bluetooth <<<
+09-12 17:09:20.312  7105  7105 F DEBUG   : uid: 1002
+09-12 17:09:20.312  7105  7105 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+09-12 17:09:20.312  7105  7105 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+09-12 17:09:20.312  7105  7105 F DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+09-12 17:09:20.312  7105  7105 F DEBUG   : Abort message: 'system/gd/hci/hci_layer.cc:527 on_hardware_error: Hardware Error Event with code 0x42'
+09-12 17:09:20.312  7105  7105 F DEBUG   :     x0  0000000000000000  x1  00000000000019b6  x2  0000000000000006  x3  0000739dde8fb270
+09-12 17:09:20.312  7105  7105 F DEBUG   :     x4  6e1f363134396262  x5  6e1f363134396262  x6  6e1f363134396262  x7  7f7f7f7f7f7f7f7f
+09-12 17:09:20.312  7105  7105 F DEBUG   :     x8  00000000000000f0  x9  62d10d75a2803f63  x10 000000ff00000020  x11 0000000054fdd7e4
+09-12 17:09:20.312  7105  7105 F DEBUG   :     x12 0000000000058006  x13 000000007fffffff  x14 000000000009cc06  x15 00000e458ae3ddbb
+09-12 17:09:20.312  7105  7105 F DEBUG   :     x16 000073a128b6b0f8  x17 000073a128b52140  x18 0000739d4a89c048  x19 000000000000198f
+09-12 17:09:20.312  7105  7105 F DEBUG   :     x20 00000000000019b6  x21 00000000ffffffff  x22 0000739e6b15d000  x23 0000739e6b15ee20
+09-12 17:09:20.312  7105  7105 F DEBUG   :     x24 0000739dde8fb980  x25 0000739dde8fb438  x26 0000739dde8fc880  x27 0000739dde8fb880
+09-12 17:09:20.312  7105  7105 F DEBUG   :     x28 0000739dde8fb988  x29 0000739dde8fb2f0
+09-12 17:09:20.312  7105  7105 F DEBUG   :     lr  000073a128af078c  sp  0000739dde8fb270  pc  000073a128af07b0  pst 0000000000001000
+09-12 17:09:20.312  7105  7105 F DEBUG   : 14 total frames
+09-12 17:09:20.312  7105  7105 F DEBUG   : backtrace:
+09-12 17:09:20.312  7105  7105 F DEBUG   :       #00 pc 00000000000707b0  /apex/com.android.runtime/lib64/bionic/libc.so (abort+156) (BuildId: 2445fc73ede03b9536eef49355aff375)
+09-12 17:09:20.312  7105  7105 F DEBUG   :       #01 pc 00000000008a1534  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+620) (BuildId: b229f9d1b6196afaae086f29f029f907)
+09-12 17:09:20.312  7105  7105 F DEBUG   :       #02 pc 0000000000016188  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_0::__invoke(char const*)+80) (BuildId: 5e1c2a9a9b42ab6e6a3f44738913b9f7)
+09-12 17:09:20.312  7105  7105 F DEBUG   :       #03 pc 0000000000c61e68  /apex/com.android.bt/lib64/libbluetooth_jni.so (bluetooth::log_internal::vlog(bluetooth::log_internal::Level, char const*, bluetooth::log_internal::source_location, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_format_args<std::__1::basic_format_context<std::__1::back_insert_iterator<std::__1::__format::__output_buffer<char>>, char>>)+1216) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.312  7105  7105 F DEBUG   :       #04 pc 0000000000a1f1c0  /apex/com.android.bt/lib64/libbluetooth_jni.so (void bluetooth::log::fatal<unsigned char>(std::__1::basic_format_string<char, std::__1::type_identity<unsigned char>::type>, unsigned char&&, bluetooth::log_internal::source_location)+96) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #05 pc 0000000000a1b670  /apex/com.android.bt/lib64/libbluetooth_jni.so (bluetooth::hci::HciLayer::impl::on_hci_event(bluetooth::hci::EventView)+20516) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #06 pc 0000000000a1b850  /apex/com.android.bt/lib64/libbluetooth_jni.so (void base::internal::FunctorTraits<void (bluetooth::hci::HciLayer::impl::*)(bluetooth::hci::EventView), void>::Invoke<void (bluetooth::hci::HciLayer::impl::*)(bluetooth::hci::EventView), bluetooth::hci::HciLayer::impl*, bluetooth::hci::EventView>(void (bluetooth::hci::HciLayer::impl::*)(bluetooth::hci::EventView), bluetooth::hci::HciLayer::impl*&&, bluetooth::hci::EventView&&)+292) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #07 pc 0000000000a1b700  /apex/com.android.bt/lib64/libbluetooth_jni.so (base::internal::Invoker<base::internal::BindState<void (bluetooth::hci::HciLayer::impl::*)(bluetooth::hci::EventView), base::internal::UnretainedWrapper<bluetooth::hci::HciLayer::impl>, bluetooth::hci::EventView>, void ()>::RunOnce(base::internal::BindStateBase*)+56) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #08 pc 0000000000ae9fcc  /apex/com.android.bt/lib64/libbluetooth_jni.so (bluetooth::os::Handler::handle_next_event()+312) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #09 pc 0000000000af9234  /apex/com.android.bt/lib64/libbluetooth_jni.so (bluetooth::os::Reactor::Run()+776) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #10 pc 0000000000afa22c  /apex/com.android.bt/lib64/libbluetooth_jni.so (bluetooth::os::Thread::run(bluetooth::os::Thread::Priority)+244) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #11 pc 0000000000afa3d0  /apex/com.android.bt/lib64/libbluetooth_jni.so (void* std::__1::__thread_proxy[abi:nn200000]<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct>>, void (bluetooth::os::Thread::*)(bluetooth::os::Thread::Priority), bluetooth::os::Thread*, bluetooth::os::Thread::Priority>>(void*)+68) (BuildId: 805dbd281523f36032ce3b34e79a0a0a)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #12 pc 0000000000080df8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+232) (BuildId: 2445fc73ede03b9536eef49355aff375)
+09-12 17:09:20.313  7105  7105 F DEBUG   :       #13 pc 0000000000073dd8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 2445fc73ede03b9536eef49355aff375)
+09-12 17:09:20.344   274   274 E tombstoned: Tombstone written to: tombstone_01
+09-12 17:09:20.348   664   796 E NativeTombstoneManager: Tombstone's UID (1002) not an app, ignoring
+09-12 17:09:20.352   664  7109 I DropBoxManagerService: add tag=system_app_native_crash isTagEnabled=true flags=0x2
+09-12 17:09:20.378   664   796 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE_PROTO_WITH_HEADERS isTagEnabled=true flags=0x4
+09-12 17:09:20.412   664   691 W AS.PlaybackActivityMon: client died
+09-12 17:09:20.418   664  1630 I ActivityManager: Process com.google.android.bluetooth (pid 6543) has died: psvc PER 
+09-12 17:09:20.419   468   468 I bluetooth_offload_hal::service: Bluetooth stack has died
+09-12 17:09:20.420   468   468 I android.hardware.bluetooth.service.default: clientDied
+09-12 17:09:20.420   468   468 I android.hardware.bluetooth.service.default: close
+09-12 17:09:20.426   664   664 D BluetoothSystemServer: BluetoothManagerService: ServiceConnection.onServiceDisconnected(com.android.bluetooth.btservice.AdapterService)
+09-12 17:09:20.428   664   812 E BluetoothSystemServer: BluetoothManagerService: MESSAGE_BLUETOOTH_SERVICE_DISCONNECTED
+09-12 17:09:20.429   448   448 I Zygote  : Process 6543 exited due to signal 6 (Aborted)
+09-12 17:09:20.430   664  1630 W ActivityManager: Scheduling restart of crashed service com.google.android.bluetooth/com.android.bluetooth.btservice.AdapterService in 1000ms for connection
+09-12 17:09:20.430   664   732 I libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1002/pid_6543
+09-12 17:09:20.430   468   468 E android.hardware.bluetooth.service.default: unable to open /dev/rfkill: Permission denied
+09-12 17:09:20.430   468   468 E android.hardware.bluetooth.service.default: rfkill unavailable
+09-12 17:09:20.431   468   468 E IPCThreadState: attemptIncStrongHandle(1): Not supported
+09-12 17:09:20.443   664   812 D BluetoothSystemServer: ActiveLogs: 09-12 17:09:20.441 	Package [BluetoothSystemServer] requested to [Disable]. 	Reason is CRASH
+09-12 17:09:20.443   664   812 D BluetoothSystemServer: BluetoothManagerService: Broadcasting sendBluetoothServiceDownCallback() to 10 receivers.
+09-12 17:09:20.449  1578  4422 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.449   952  1388 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.450   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.452   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.454   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.454   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.455   664   812 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.456  1563  2137 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.457   664   796 E NativeTombstoneManager: Tombstone's UID (1002) not an app, ignoring
+09-12 17:09:20.459  1066  1194 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.459  1270  2754 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.461   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=BLE_STATE_CHANGED prevState=ON newState=TURNING_OFF
+09-12 17:09:20.461   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=STATE_CHANGED prevState=ON newState=TURNING_OFF
+09-12 17:09:20.462   664   812 D BluetoothSystemServer: BluetoothManagerService: No support for AutoOn feature: Not creating a timer
+09-12 17:09:20.462   664   812 D BluetoothSystemServer: BluetoothManagerService: bluetoothStateChangeHandler: Bluetooth is OFF send Service Down
+09-12 17:09:20.462   664   812 D BluetoothSystemServer: BluetoothManagerService: Broadcasting sendBluetoothServiceDownCallback() to 10 receivers.
+09-12 17:09:20.463   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.463   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.463   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.463   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.463   664   812 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.463   952  1388 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.463   664   812 D BluetoothSystemServer: BluetoothManagerService: unbindAndFinish(): mAdapter=null isBinding=false
+09-12 17:09:20.463   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=BLE_STATE_CHANGED prevState=TURNING_OFF newState=OFF
+09-12 17:09:20.463  1270  2754 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.463  1578  4422 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.464  1563  2137 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.464  1066  1194 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.465   664   796 I BootReceiver: Copying /data/tombstones/tombstone_01 to DropBox (SYSTEM_TOMBSTONE)
+09-12 17:09:20.465   664   796 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE isTagEnabled=true flags=0x6
+09-12 17:09:20.471   664   730 D ActivityManager: sync unfroze 1164 com.android.settings for 10
+09-12 17:09:20.473   664   730 D ActivityManager: sync unfroze 1723 com.android.keychain for 10
+09-12 17:09:20.477   664   730 D ActivityManager: sync unfroze 2575 com.android.dynsystem:dynsystem for 10
+09-12 17:09:20.488   664   730 D ActivityManager: sync unfroze 2516 com.android.dynsystem for 10
+09-12 17:09:20.493   664   730 D ActivityManager: sync unfroze 2113 com.android.localtransport for 10
+09-12 17:09:20.499   664   812 D BluetoothSystemServer: BluetoothManagerService: Broadcasting sendBluetoothOffCallback() to 10 receivers.
+09-12 17:09:20.500   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.500   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.500   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:20.500   664   812 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:20.500   664   812 D BluetoothAdapter: HEADSET disconnected
+09-12 17:09:20.500   664   812 D BluetoothAdapter: A2DP disconnected
+09-12 17:09:20.500   664   812 D BluetoothAdapter: HEARING_AID disconnected
+09-12 17:09:20.500   664   812 D BluetoothAdapter: HEARING_AID disconnected
+09-12 17:09:20.500   664   812 D BluetoothAdapter: HEADSET disconnected
+09-12 17:09:20.500   664   812 D BluetoothAdapter: HEARING_AID disconnected
+09-12 17:09:20.500   664   812 D BluetoothAdapter: A2DP disconnected
+09-12 17:09:20.501   664   812 D BluetoothSystemServer: BluetoothManagerService: sendBrEdrDownCallback: mAdapter is null
+09-12 17:09:20.501   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=STATE_CHANGED prevState=TURNING_OFF newState=OFF
+09-12 17:09:20.501  1270  2754 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:20.502  1578  4422 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:20.502  1578  4422 D BluetoothAdapter: HEADSET disconnected
+09-12 17:09:20.502  1164  1175 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.503  1164  1175 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.503  1164  1175 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:20.503  1164  1175 D BluetoothAdapter: PAN disconnected
+09-12 17:09:20.503   664   664 I AS.BtHelper: BT profile service: disconnecting HEADSET profile
+09-12 17:09:20.504   664   664 I AS.BtHelper: BT profile service: disconnecting A2DP profile
+09-12 17:09:20.504   664   664 I AS.BtHelper: BT profile service: disconnecting HEARING_AID profile
+09-12 17:09:20.504  1563  2137 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:20.504  1066  1194 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:20.504  1066  1194 D BluetoothAdapter: HEADSET disconnected
+09-12 17:09:20.504   664   664 I Telecom : CallAudioCommunicationDeviceTracker: clearCommunicationDevice: type = 23, isBtDevice = true: BPSL.oSD@ARU
+09-12 17:09:20.504   664   664 I Telecom : CallAudioCommunicationDeviceTracker: Unable to clear communication device of type(s) 23. Device does not correspond to the locally requested device type -1.: BPSL.oSD@ARU
+09-12 17:09:20.504   664   664 I Telecom : BluetoothDeviceManager: Lost BluetoothHearingAid service. Removing all tracked devices.: BPSL.oSD@ARU
+09-12 17:09:20.504   664   863 I AS.BtHelper: BT profile HEADSET disconnected
+09-12 17:09:20.504   664   863 I AS.BtHelper: BT profile A2DP disconnected
+09-12 17:09:20.504   664   664 I Telecom : BluetoothDeviceManager: Lost BluetoothHeadset service. Removing all tracked devices: BPSL.oSD@ARY
+09-12 17:09:20.505  1164  1175 D BluetoothAdapter: A2DP disconnected
+09-12 17:09:20.505  1164  1175 D BluetoothAdapter: HEADSET disconnected
+09-12 17:09:20.505  1164  1175 D BluetoothAdapter: HEARING_AID disconnected
+09-12 17:09:20.505  1164  1175 D BluetoothAdapter: PBAP disconnected
+09-12 17:09:20.512   952  5011 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:20.512   952  5011 D BluetoothAdapter: PAN disconnected
+09-12 17:09:20.514   952  5011 D BluetoothAdapter: A2DP disconnected
+09-12 17:09:20.514   952  5011 D BluetoothAdapter: HEADSET disconnected
+09-12 17:09:20.514   952  5011 D BluetoothAdapter: HID_HOST disconnected
+09-12 17:09:20.514   952  5011 D BluetoothAdapter: PBAP disconnected
+09-12 17:09:20.514   952  5011 D BluetoothAdapter: MAP disconnected
+09-12 17:09:20.514   952  5011 D BluetoothAdapter: HEARING_AID disconnected
+09-12 17:09:20.514   952  5011 D BluetoothAdapter: HID_DEVICE disconnected
+09-12 17:09:20.515  1164  1175 D BluetoothAdapter: HID_DEVICE disconnected
+09-12 17:09:20.515  1164  1175 D BluetoothAdapter: HID_HOST disconnected
+09-12 17:09:20.515  1164  1175 D BluetoothAdapter: MAP disconnected
+09-12 17:09:20.517  1578  4422 D BluetoothAdapter: HEADSET disconnected
+09-12 17:09:20.523   664   863 I AS.BtHelper: BT profile HEARING_AID disconnected
+09-12 17:09:20.523  1578  1930 I etle    : #audio# BT-headset-profile disconnected
+09-12 17:09:20.524   952   952 D PowerNotificationWarningsGoogleImpl: onReceive: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:20.524   952   952 D PulsarController: dispatchIntent: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:20.524   952   952 D IncompatibleChargerNotification: dispatchIntent: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:20.524   952   952 D PowerNotificationWarningsGoogleImpl: onReceive: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:20.524   952   952 D PulsarController: dispatchIntent: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:20.524   952   952 D IncompatibleChargerNotification: dispatchIntent: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:20.525   664   664 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:20.525   664   664 I CDM_BleDeviceProcessor: stopBleScan()
+09-12 17:09:20.525   664   664 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:20.525   664   664 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:20.526   664   664 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:20.531  1578  1809 I ugh     : (REDACTED) %s
+09-12 17:09:20.844   664   812 D BluetoothSystemServer: BluetoothManagerService: MESSAGE_RESTART_BLUETOOTH_SERVICE: retry count=1
+09-12 17:09:20.844   664   812 D BluetoothSystemServer: ActiveLogs: 09-12 17:09:20.844 	Package [BluetoothSystemServer] requested to [Enable]. 	Reason is RESTARTED
+09-12 17:09:20.845   664   812 D BluetoothSystemServer: BluetoothManagerService: Start binding to the Bluetooth service with intent=Intent { act=android.bluetooth.IBluetooth cmp=com.google.android.bluetooth/com.android.bluetooth.btservice.AdapterService }
+09-12 17:09:20.860   664   812 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@29533ab7 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-12 17:09:20.861   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:20.881   448   448 D Zygote  : Forked child process 7111
+09-12 17:09:20.897   664   730 D ActivityManager: sync unfroze 2724 com.google.android.gms.unstable for 10
+09-12 17:09:20.899   664   730 D ActivityManager: sync unfroze 3394 com.google.android.gms.ui for 10
+09-12 17:09:20.926   664   731 W ActivityManager: Slow operation: 66ms so far, now at startProcess: done updating battery stats
+09-12 17:09:20.926   664   731 W ActivityManager: Slow operation: 66ms so far, now at startProcess: building log message
+09-12 17:09:20.926   664   731 I ActivityManager: Start proc 7111:com.google.android.bluetooth/1002 for service {com.google.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+09-12 17:09:20.926   664   731 W ActivityManager: Slow operation: 66ms so far, now at startProcess: starting to update pids map
+09-12 17:09:20.926   664   731 I ActivityManager: ProcessObserver broadcast disabled
+09-12 17:09:20.926   664   731 W ActivityManager: Slow operation: 66ms so far, now at startProcess: done updating pids map
+09-12 17:09:20.930  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:20.931  1270  3887 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:20.932  3394  3394 D ActivityThread: Package [com.rnapp] reported as REPLACED, but missing application info. Assuming REMOVED.
+09-12 17:09:20.936  2724  2744 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.937  2724  2744 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.937  2724  2744 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:20.938  2724  2724 D ActivityThread: Package [com.rnapp] reported as REPLACED, but missing application info. Assuming REMOVED.
+09-12 17:09:20.943  2724  2724 D ActivityThread: Package [com.rnapp] reported as REPLACED, but missing application info. Assuming REMOVED.
+09-12 17:09:20.946  7111  7111 I droid.bluetooth: Using CollectorTypeCMC GC.
+09-12 17:09:20.956  3394  3394 D ActivityThread: Package [com.rnapp] reported as REPLACED, but missing application info. Assuming REMOVED.
+09-12 17:09:20.966  7111  7111 E droid.bluetooth: Not starting debugger since process cannot load the jdwp agent.
+09-12 17:09:20.972  1270  1270 I MagicTether: (REDACTED) [TetherService] BluetoothStateChangeReceiver: %s
+09-12 17:09:20.973  1270  3887 W NearbyMediums: [BLUETOOTH_RADIO] State was changed outside of our control. Updating the snapshot to match current radio state.
+09-12 17:09:20.973  7111  7111 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-12 17:09:20.975   664   730 D ActivityManager: sync unfroze 1808 com.google.android.googlequicksearchbox:search for 10
+09-12 17:09:20.985  1578  1578 I fiis    : (REDACTED) O received %s
+09-12 17:09:20.989  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:20.989  1270  1769 I NearbySharing: Bluetooth is disabled
+09-12 17:09:20.990  1270  1769 I NearbySharing: Uwb feature is off.
+09-12 17:09:20.990  1270  1769 I NearbySharing: Stopping scanning because Bluetooth is disabled.
+09-12 17:09:20.992  1808  1829 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:20.998  1578  1578 I fiis    : (REDACTED) O received %s
+09-12 17:09:20.998  1270  1769 I NearbySharing: Stopping Fast Init advertisement because Bluetooth is off.
+09-12 17:09:21.000  1270  1769 I NearbySharing: Stopping advertising because Bluetooth is disabled.
+09-12 17:09:21.005  1808  1829 D BluetoothAdapter: onBluetoothServiceDown
+09-12 17:09:21.005  1808  1829 D BluetoothAdapter: onBluetoothOff
+09-12 17:09:21.005   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.007  1578  1865 I bcdr    : (REDACTED) isGrpcDeviceIntent: %s
+09-12 17:09:21.007  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.012  1270  2344 I NearbyDiscovery: (REDACTED) PureOffloadFastPairScanner: eventType=%s, isInternalReq=%s, isScanning=%s, isScanningAllowed=%s
+09-12 17:09:21.012  1270  2344 I NearbyDiscovery: PureOffloadFastPairScanner: Skipping stop, already stopped scanning [CONTEXT service_id=265 ]
+09-12 17:09:21.013  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+09-12 17:09:21.013  1270  2344 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:21.013  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+09-12 17:09:21.014  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: Stopping scan, %s
+09-12 17:09:21.014  1270  2344 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:21.032  1270  7101 I MagicTether: [TetherService] starting runnable [CONTEXT service_id=276 ]
+09-12 17:09:21.035  1270  1270 I NearbyPresence: (REDACTED) %s: BLE OFF
+09-12 17:09:21.036  1270  1270 I MagicTether: (REDACTED) [TetherService] BluetoothStateChangeReceiver: %s
+09-12 17:09:21.039  1270  3884 I NearbyPresence: (REDACTED) %s verified [!=] new request %s does not equal to the old request %s
+09-12 17:09:21.039  1270  3884 I NearbyPresence: (REDACTED) %s verified [==] new request %s equals to the old request
+09-12 17:09:21.040  1270  7101 I MagicTether: [TetherService] Bluetooth is disabled, stopping service. [CONTEXT service_id=276 ]
+09-12 17:09:21.041  1270  2344 I NearbyDiscovery: (REDACTED) BleRecoveryHelper: BLE is not always available, resets retry count and skip. eventType=%s
+09-12 17:09:21.041  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.041  1270  2344 I NearbyDiscovery: (REDACTED) PureOffloadFastPairScanner: eventType=%s, isInternalReq=%s, isScanning=%s, isScanningAllowed=%s
+09-12 17:09:21.042  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+09-12 17:09:21.042  1270  2344 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:21.050  7111  7111 D nativeloader: Configuring clns-shared-9 for other apk /apex/com.android.bt/app/BluetoothGoogle@BE2A.250530.026.F3/BluetoothGoogle.apk. target_sdk_version=36, uses_libraries=, library_path=/apex/com.android.bt/app/BluetoothGoogle@BE2A.250530.026.F3/lib/arm64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user_de/0/com.google.android.bluetooth:/apex/com.android.bt/app/BluetoothGoogle@BE2A.250530.026.F3:/system/lib64:/system_ext/lib64
+09-12 17:09:21.054  7111  7111 D nativeloader: InitApexLibraries:
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_adservices: libhpke_jni.so:libtflite_support_classifiers_native.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_appsearch: libicing.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_art: libartservice.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_bt: libbluetooth_jni.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_conscrypt: libjavacrypto.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_extservices: libtflite_support_classifiers_native.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_mediaprovider: libpdfclient.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_nfcservices: libnfc_nci_jni.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_ondevicepersonalization: libfcp_cpp_dep_jni.so:libfcp_hpke_jni.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_os_statsd: libstats_jni.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_tethering: libandroid_net_connectivity_com_android_net_module_util_jni.so:libframework-connectivity-jni.so:libframework-connectivity-tiramisu-jni.so:libmainlinecronet.133.0.6876.3.so:libservice-connectivity.so:libservice-thread-jni.so:stable_cronet_libcrypto.so:stable_cronet_libssl.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_uwb: libuwb_uci_jni_rust.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_virt: libvirtualizationservice_jni.so:libvirtualmachine_jni.so
+09-12 17:09:21.054  7111  7111 D nativeloader:   com_android_wifi: libservice-wifi-jni.so
+09-12 17:09:21.058  7111  7111 I droid.bluetooth: AssetManager2(0xb400739eef1fe758) locale list changing from [] to [en-US]
+09-12 17:09:21.042  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+09-12 17:09:21.058  1270  2344 I NearbyDiscovery: (REDACTED) BleRecoveryHelper: BLE is not always available, resets retry count and skip. eventType=%s
+09-12 17:09:21.062  7111  7111 V GraphicsEnvironment: Currently set values for:
+09-12 17:09:21.062  7111  7111 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-12 17:09:21.062  7111  7111 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-12 17:09:21.062  7111  7111 V GraphicsEnvironment: com.google.android.bluetooth is not listed in per-application setting
+09-12 17:09:21.062  7111  7111 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+09-12 17:09:21.062  7111  7111 V GraphicsEnvironment: com.google.android.bluetooth is not listed in ANGLE allowlist or settings, returning default
+09-12 17:09:21.062  7111  7111 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-12 17:09:21.065  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:21.065  1270  3887 D BluetoothAdapter: isLeEnabled(): OFF
+09-12 17:09:21.065  1270  3887 W NearbyMediums: [BLUETOOTH_RADIO] State was changed outside of our control. Updating the snapshot to match current radio state.
+09-12 17:09:21.065  1270  7101 I MagicTether: [TetherService] starting runnable [CONTEXT service_id=276 ]
+09-12 17:09:21.065  1270  7101 I MagicTether: [TetherService] Bluetooth is disabled, stopping service. [CONTEXT service_id=276 ]
+09-12 17:09:21.066  1270  7127 I DropBoxUtil: (REDACTED) Reading dropbox entry with tag %s and timestamp %d
+09-12 17:09:21.067  1270  1270 I MagicTether: [TetherService] Stopping Instant Hotspot feature. [CONTEXT service_id=276 ]
+09-12 17:09:21.067  1270  1270 I MagicTether: (REDACTED) [HostTetherRole] enableProximityAuth: %s
+09-12 17:09:21.075  1270  1769 I NearbySharing: Fast Initiation Scanning has stopped
+09-12 17:09:21.075  1270  1769 I NearbySharing: Stopping FastInitiation scanning because Bluetooth is disabled.
+09-12 17:09:21.075  1270  1270 I MagicTether: [TetherService] Stopping Nearby component. [CONTEXT service_id=276 ]
+09-12 17:09:21.076  1270  1270 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:21.076  1270  1270 I MagicTether: [HostTetherRole] Nearby host role already stopped [CONTEXT service_id=276 ]
+09-12 17:09:21.077  1270  1270 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:21.077  1270  1270 I MagicTether: [TetherService] Stopping Nearby client role [CONTEXT service_id=276 ]
+09-12 17:09:21.077  1270  1270 I MagicTether: [ClientTetherRole] Client role already stopped [CONTEXT service_id=276 ]
+09-12 17:09:21.078  1270  1769 I NearbySharing: Dismissing HUN as there's no device nearby.
+09-12 17:09:21.079  7111  7111 D BluetoothAdapterApp: onCreate
+09-12 17:09:21.081  1270  1769 I NearbySharing: Bluetooth is disabled
+09-12 17:09:21.081  1270  1769 I NearbySharing: Uwb feature is off.
+09-12 17:09:21.081  1270  1769 I NearbySharing: Stopping scanning because Bluetooth is disabled.
+09-12 17:09:21.081  1808  2269 W adua    : Abort, client detached.
+09-12 17:09:21.081  1270  1270 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:21.082  1270  1769 I NearbySharing: Stopping Fast Init advertisement because Bluetooth is off.
+09-12 17:09:21.082  1270  1769 I NearbySharing: Stopping advertising because Bluetooth is disabled.
+09-12 17:09:21.082  1270  1270 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:21.082  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:21.082  1578  1809 I bcdr    : (REDACTED) isGrpcDeviceIntent: %s
+09-12 17:09:21.082  1270  1769 I NearbySharing: Fast Initiation Scanning has stopped
+09-12 17:09:21.082  1270  1769 I NearbySharing: Stopping FastInitiation scanning because Bluetooth is disabled.
+09-12 17:09:21.083  1270  1769 I NearbySharing: Dismissing HUN as there's no device nearby.
+09-12 17:09:21.087  7111  7111 D DataMigration: Legacy migration skipped: already completed
+09-12 17:09:21.088  1270  1769 I NearbySharing: Broadcasting NearbySharing state change.
+09-12 17:09:21.090   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.096  1270  1769 I NearbySharing: Broadcasting NearbySharing state change.
+09-12 17:09:21.100  7111  7111 D BluetoothAdapterService: onCreate()
+09-12 17:09:21.105   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.107  7111  7111 D BluetoothAdapterService: setAdapterService() - set service to com.android.bluetooth.btservice.AdapterService@8a90155
+09-12 17:09:21.109  7111  7111 I AdapterState: OFF : entered 
+09-12 17:09:21.109  7111  7111 D AdapterProperties: Setting state to OFF
+09-12 17:09:21.109  7111  7111 D BluetoothAdapterService: Broadcasting [updateAdapterState(OFF, OFF)] to 0 receivers.
+09-12 17:09:21.109  7111  7111 D BluetoothAdapterService: onBind()
+09-12 17:09:21.110   664   664 D BluetoothSystemServer: BluetoothManagerService: ServiceConnection.onServiceConnected(com.android.bluetooth.btservice.AdapterService, android.os.BinderProxy@a849a10)
+09-12 17:09:21.110  1270  1270 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:21.110   664   812 D BluetoothSystemServer: BluetoothManagerService: MESSAGE_BLUETOOTH_SERVICE_CONNECTED: service=android.os.BinderProxy@a849a10
+09-12 17:09:21.110   664   812 D BluetoothSystemServer: BluetoothManagerService: offToBleOn: Sending request
+09-12 17:09:21.111   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=BLE_STATE_CHANGED prevState=OFF newState=BLE_TURNING_ON
+09-12 17:09:21.111  1270  1270 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:21.112   664   812 D BluetoothSystemServer: BluetoothManagerService: Broadcasting sendBluetoothServiceUpCallback() to 11 receivers.
+09-12 17:09:21.112   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:21.112   952  7057 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@cd51d31
+09-12 17:09:21.113  2724  7112 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@37c0b41
+09-12 17:09:21.113  1578  2399 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@2dc95a0
+09-12 17:09:21.113  7111  7123 D BluetoothAdapter: onBluetoothServiceUp: com.android.bluetooth.btservice.AdapterServiceBinder@dc4c45b
+09-12 17:09:21.114   664   812 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@a849a10
+09-12 17:09:21.114  1270  1623 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@7294bc5
+09-12 17:09:21.114  1164  1175 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@b3c7736
+09-12 17:09:21.115  1808  2164 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@3c8a020
+09-12 17:09:21.115  1563  2352 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@49d12b1
+09-12 17:09:21.116   664   664 D BluetoothAdapter: isLeEnabled(): BLE_TURNING_ON
+09-12 17:09:21.117  1066  1194 D BluetoothAdapter: onBluetoothServiceUp: android.os.BinderProxy@b48617e
+09-12 17:09:21.119  1270  1270 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:21.120  1270  1270 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:21.120  7111  7125 I BluetoothAdapterService: offToBleOn() - Enable called with quiet mode status =  false
+09-12 17:09:21.123  7111  7111 D BluetoothAdapterService: init()
+09-12 17:09:21.123  1270  1270 I MagicTether: [TidepoolFeatureStatusManager] Successfully unregistered TidepoolListener [CONTEXT service_id=276 ]
+09-12 17:09:21.125  1270  3887 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:21.125  1270  3887 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:21.128  7111  7111 I AdapterServiceConfig: init: profile= GATT, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= A2DP, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= A2DP_SINK, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= AVRCP, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= AVRCP_CONTROLLER, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= LE_AUDIO_BROADCAST_ASSISTANT, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= BATTERY, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= CSIP_SET_COORDINATOR, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= HAP_CLIENT, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= HEADSET, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= HEADSET_CLIENT, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= HEARING_AID, enabled=true
+09-12 17:09:21.130  1270  7139 I ProximityAuth: [PhoneHubService] Bluetooth state has changed. Calling startService.
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= HID_DEVICE, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= HID_HOST, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= LE_CALL_CONTROL, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= MAP, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= MAP_CLIENT, enabled=false
+09-12 17:09:21.130  1270  7124 I Nearby  : (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= MCP_SERVER, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= OPP, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= PAN, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= PBAP, enabled=true
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= PBAP_CLIENT, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= SAP, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= VOLUME_CONTROL, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= LE_AUDIO, enabled=false
+09-12 17:09:21.130  7111  7111 I AdapterServiceConfig: init: profile= LE_AUDIO_BROADCAST, enabled=false
+09-12 17:09:21.131  1270  7140 I NearbyMediums: ModuleInitializer handles incoming intent android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.136  1270  1270 I NearbySharing: SharingTileService created.
+09-12 17:09:21.140   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.144  7111  7111 I BluetoothMetricsLogger: setCounterMetricsAlarm()
+09-12 17:09:21.148  1270  7140 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:21.148  1270  7140 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:21.152  1270  7140 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:21.152  1270  7140 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:21.154  1270  7140 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:21.154  1270  7140 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:21.157  1270  7140 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:21.157  1270  7140 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:21.158  1270  1270 I ProximityAuth: [PhoneHubService] Handling intent for PhoneHubChimeraService.
+09-12 17:09:21.160  7111  7111 D BluetoothKeystoreService: new BluetoothKeystoreService isCommonCriteriaMode: false
+09-12 17:09:21.160  7111  7111 I BluetoothKeystoreService: ComputeDataThread: create, doEncrypt: true
+09-12 17:09:21.160  7111  7111 I BluetoothKeystoreService: ComputeDataThread: create, doEncrypt: false
+09-12 17:09:21.160  7111  7111 D BluetoothKeystoreService: start
+09-12 17:09:21.160  7111  7145 I BluetoothKeystoreService: ComputeDataThread: run, doEncrypt: true
+09-12 17:09:21.161  1270  7015 I ProximityAuth: [PhoneHubService] No enabled account, stopping service
+09-12 17:09:21.161  7111  7146 I BluetoothKeystoreService: ComputeDataThread: run, doEncrypt: false
+09-12 17:09:21.169  7111  7111 D BluetoothKeystoreService: loadConfigData
+09-12 17:09:21.168  1270  1270 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s
+09-12 17:09:21.169  7111  7145 I BluetoothKeystoreService: Interrupted while operating.
+09-12 17:09:21.169  1270  1270 I NearbyDiscovery: (REDACTED) FastPair: onAdapterStateChange: state=%s
+09-12 17:09:21.169  7111  7145 I BluetoothKeystoreService: ComputeDataThread: Stop, doEncrypt: true
+09-12 17:09:21.170  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.170  1270  2344 I NearbyDiscovery: FastPairController: removeAllEventStreamInitializationDevice [CONTEXT service_id=265 ]
+09-12 17:09:21.170  1270  2344 I NearbyDiscovery: FastPairController: destroyAllEventStreams [CONTEXT service_id=265 ]
+09-12 17:09:21.170  1270  2344 I NearbyDiscovery: (REDACTED) EventStreamManager: Disconnect all event streams, size=%s
+09-12 17:09:21.170  7111  7146 I BluetoothKeystoreService: Interrupted while operating.
+09-12 17:09:21.170  7111  7146 I BluetoothKeystoreService: ComputeDataThread: Stop, doEncrypt: false
+09-12 17:09:21.170  1270  7015 I NearbyDiscovery: (REDACTED) SdpManager: Remove all pending sdp actions (%s)
+09-12 17:09:21.170  7111  7111 D BluetoothKeystoreService: getCompareResult: 0
+09-12 17:09:21.171  1270  1769 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate start [CONTEXT service_id=265 ]
+09-12 17:09:21.172  1270  1769 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate end [CONTEXT service_id=265 ]
+09-12 17:09:21.175  7111  7111 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+09-12 17:09:21.176  7111  7111 D BluetoothAdapterService: Loading JNI Library
+09-12 17:09:21.180  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:21.184  1270  1270 I ProximityAuth: [PhoneHubService] Destroying PhoneHubChimeraService.
+09-12 17:09:21.184  1270  1270 W ProximityAuth: [PhoneHubNotificationProcessor] shutdown(): context is null.
+09-12 17:09:21.184  1270  1270 I ProximityAuth: [PhoneHubService] All devices have disconnected. Performing cleanup...
+09-12 17:09:21.185  1270  1270 W ChimeraUtils: Module com.google.android.gms.auth_proximity missing resource null(0)
+09-12 17:09:21.192  1270  7126 I ProximityAuth: [PhoneHubService] Bluetooth state has changed. Calling startService.
+09-12 17:09:21.194  1270  7140 I Nearby  : (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+09-12 17:09:21.197  1270  7126 I NearbyMediums: ModuleInitializer handles incoming intent android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.204  1270  1270 I ProximityAuth: [PhoneHubService] Handling intent for PhoneHubChimeraService.
+09-12 17:09:21.205  1270  1270 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s
+09-12 17:09:21.206  1270  1270 I NearbyDiscovery: (REDACTED) FastPair: onAdapterStateChange: state=%s
+09-12 17:09:21.206  1270  1270 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s
+09-12 17:09:21.207  1270  1769 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate start [CONTEXT service_id=265 ]
+09-12 17:09:21.208  1270  7135 I ProximityAuth: [PhoneHubService] No enabled account, stopping service
+09-12 17:09:21.208  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.208  1270  7101 I Nearby  : (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+09-12 17:09:21.210  1270  1270 I ProximityAuth: [PhoneHubService] Destroying PhoneHubChimeraService.
+09-12 17:09:21.210  1270  1270 W ProximityAuth: [PhoneHubNotificationProcessor] shutdown(): context is null.
+09-12 17:09:21.210  1270  1270 I ProximityAuth: [PhoneHubService] All devices have disconnected. Performing cleanup...
+09-12 17:09:21.210  1270  1270 W ChimeraUtils: Module com.google.android.gms.auth_proximity missing resource null(0)
+09-12 17:09:21.212  1270  2344 I Nearby  : (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+09-12 17:09:21.212  1270  1769 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate end [CONTEXT service_id=265 ]
+09-12 17:09:21.213  1270  2344 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+09-12 17:09:21.213  1270  2344 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+09-12 17:09:21.213  7111  7111 D nativeloader: Load libbluetooth_jni.so using class loader ns clns-shared-9 (caller=/apex/com.android.bt/app/BluetoothGoogle@BE2A.250530.026.F3/BluetoothGoogle.apk): ok
+09-12 17:09:21.213  7111  7111 I BluetoothServiceJni: android/app/jni/com_android_bluetooth_btservice_AdapterService.cpp:2411 JNI_OnLoad: Set stack default log level to 'INFO'
+09-12 17:09:21.217  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:412 init: start restricted = false ; common criteria mode = false, config compare result = 0
+09-12 17:09:21.217  7111  7149 I bluetooth: system/common/message_loop_thread.cc:176 Run: message loop starting for thread bt_stack_manager_thread
+09-12 17:09:21.218  7111  7149 I bt_stack_manager: system/btif/src/stack_manager.cc:253 event_init_stack: is initializing the stack
+09-12 17:09:21.219  7111  7150 I bluetooth: system/common/message_loop_thread.cc:176 Run: message loop starting for thread bt_main_thread
+09-12 17:09:21.219  7111  7149 I device_iot_config: system/device/src/device_iot_config_int.cc:61 device_iot_config_module_init: 
+09-12 17:09:21.221  7111  7149 I device_iot_config: system/device/src/device_iot_config_int.cc:121 device_iot_config_module_init: Devices loaded 0
+09-12 17:09:21.222  7111  7153 I bt_osi_thread: system/osi/src/thread.cc:223 run_thread: thread id 7153, thread name alarm_default_ca started
+09-12 17:09:21.222  7111  7154 I bt_osi_thread: system/osi/src/thread.cc:223 run_thread: thread id 7154, thread name alarm_dispatcher started
+09-12 17:09:21.223  7111  7149 I bt_core_module: system/btcore/src/module.cc:85 module_start_up: Starting module "gd_shim_module"
+09-12 17:09:21.223  7111  7149 I bt_gd_shim: system/main/shim/stack.cc:87 StartEverything: Starting Gd stack
+09-12 17:09:21.223  7111  7149 I bluetooth: system/gd/hal/snoop_logger.cc:558 SnoopLogger: Snoop Logs disabled
+09-12 17:09:21.223  7111  7149 I bluetooth: system/gd/hal/snoop_logger.cc:368 delete_btsnoop_files: Deleting logs if they exist
+09-12 17:09:21.223  7111  7149 I bluetooth: system/gd/hal/snoop_logger.cc:374 delete_btsnoop_files: Main log file does not exist at "/data/misc/bluetooth/logs/btsnoop_hci.log.filtered"
+09-12 17:09:21.223  7111  7149 I bluetooth: system/gd/hal/snoop_logger.cc:382 delete_btsnoop_files: Last log file does not exist at "/data/misc/bluetooth/logs/btsnoop_hci.log.filtered"
+09-12 17:09:21.223  7111  7149 I bluetooth: system/gd/hal/snoop_logger.cc:368 delete_btsnoop_files: Deleting logs if they exist
+09-12 17:09:21.223  7111  7149 I bluetooth: system/gd/hal/snoop_logger.cc:374 delete_btsnoop_files: Main log file does not exist at "/data/misc/bluetooth/logs/btsnoop_hci.log"
+09-12 17:09:21.223  7111  7149 I bluetooth: system/gd/hal/snoop_logger.cc:382 delete_btsnoop_files: Last log file does not exist at "/data/misc/bluetooth/logs/btsnoop_hci.log"
+09-12 17:09:21.224  7111  7149 I BtGdWakelockNative: system/gd/os/android/wakelock_native.cc:62 Initialize: Initializing native wake locks
+09-12 17:09:21.225  7111  7149 W droid.bluetooth: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+09-12 17:09:21.225  7111  7149 I bt_gd_shim: system/main/shim/stack.cc:129 StartEverything: GD stack is running
+09-12 17:09:21.225  7111  7156 I BluetoothCounterMetrics: system/gd/metrics/counter_metrics.cc:37 Start: Counter metrics initialized
+09-12 17:09:21.226  7111  7156 I bluetooth: system/btif/src/btif_keystore.cc:58 ConvertEncryptOrDecryptKeyIfNeeded: callback isn't ready.
+09-12 17:09:21.228  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.229  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of Low Power Processor Offload Manager
+09-12 17:09:21.229  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.229  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of SocketHalAndroid
+09-12 17:09:21.229  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of SocketHalAndroid
+09-12 17:09:21.230  7111  7156 E bluetooth: system/gd/hal/socket_hal_android.cc:93 Start: The service android.hardware.bluetooth.socket.IBluetoothSocket/default is not declared
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started SocketHalAndroid
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of Low Power Processor Offload Manager
+09-12 17:09:21.230  7111  7156 I bluetooth: system/gd/lpp/lpp_offload_manager.cc:36 start: 
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started Low Power Processor Offload Manager
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of HciHal
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of LinkClocker
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of LinkClocker
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started LinkClocker
+09-12 17:09:21.230  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of HciHal
+09-12 17:09:21.231  7111  7156 W droid.bluetooth: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+09-12 17:09:21.233   468   468 I android.hardware.bluetooth.service.default: initialize
+09-12 17:09:21.233   468   468 I android.hardware.bluetooth.service.default: opening hci interface 0
+09-12 17:09:21.233   468   468 E android.hardware.bluetooth.service.default: unable to open /dev/rfkill: Permission denied
+09-12 17:09:21.233   468   468 E android.hardware.bluetooth.service.default: rfkill unavailable
+09-12 17:09:21.233   468   468 I android.hardware.bluetooth.service.default: waiting for hci interface 0
+09-12 17:09:21.234   468   468 I android.hardware.bluetooth.service.default: hci interface 0 found
+09-12 17:09:21.234   468   468 I android.hardware.bluetooth.service.default: hci interface 0 ready
+09-12 17:09:21.238   468   468 I android.hardware.bluetooth.service.default: HCI Reset successful
+09-12 17:09:21.239   468   468 I android.hardware.bluetooth.service.default: initialization complete
+09-12 17:09:21.240  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started HciHal
+09-12 17:09:21.241  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.241  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of Hci Layer
+09-12 17:09:21.241  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of Hci Layer
+09-12 17:09:21.276  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started Hci Layer
+09-12 17:09:21.276  7111  7155 I bluetooth: system/gd/hci/hci_layer.cc:387 register_event: Registering test for CONNECTION_REQUEST, since there's no ACL
+09-12 17:09:21.277  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.277  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of Controller
+09-12 17:09:21.277  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of Controller
+09-12 17:09:21.366  7111  7155 I bluetooth: system/gd/hci/controller.cc:691 le_get_vendor_capabilities_handler: invalid data for hci requirements v1.03
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started Controller
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of AclSchedulerModule
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of AclSchedulerModule
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started AclSchedulerModule
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of Acl Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of RemoteNameRequestModule
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of RemoteNameRequestModule
+09-12 17:09:21.368  7111  7156 I bluetooth: system/gd/hci/remote_name_request.cc:34 Start: Starting RemoteNameRequestModule
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started RemoteNameRequestModule
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of Acl Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started Acl Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of Le Advertising Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of Le Advertising Manager
+09-12 17:09:21.368  7111  7156 I bluetooth: system/gd/hci/le_advertising_manager.cc:210 get_tx_path_loss_compensation: Tx path loss compensation: 0
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started Le Advertising Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.368  7111  7156 I bluetooth: system/gd/hci/msft.cc:315 MsftExtensionManager: MsftExtensionManager()
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of Microsoft Extension Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of Microsoft Extension Manager
+09-12 17:09:21.368  7111  7156 I bluetooth: system/gd/hci/msft.cc:49 start: MsftExtensionManager start()
+09-12 17:09:21.368  7111  7156 I bluetooth: system/gd/hci/msft.cc:61 start: MSFT extension is not supported.
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started Microsoft Extension Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of Le Scanning Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of Le Scanning Manager
+09-12 17:09:21.368  7111  7156 I bluetooth: system/gd/hci/le_scanning_manager.cc:302 get_rx_path_loss_compensation: Rx path loss compensation: 0
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started Le Scanning Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of Distance Measurement Manager
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:100 Start: Constructing next module
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:104 Start: Starting dependencies of RangingHalAndroid
+09-12 17:09:21.368  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of RangingHalAndroid
+09-12 17:09:21.369  7111  7156 I bluetooth: system/gd/hal/ranging_hal_android.cc:567 Start: AServiceManager_isDeclared false
+09-12 17:09:21.370  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started RangingHalAndroid
+09-12 17:09:21.370  7111  7156 I BtGdModule: system/gd/module.cc:108 Start: Finished starting dependencies and calling Start() of Distance Measurement Manager
+09-12 17:09:21.370  7111  7156 I bluetooth: system/gd/hci/distance_measurement_manager.cc:328 start: The controller doesn't support Channel Sounding feature.
+09-12 17:09:21.370  7111  7156 I BtGdModule: system/gd/module.cc:120 Start: Started Distance Measurement Manager
+09-12 17:09:21.370  7111  7149 I bt_gd_shim: system/main/shim/stack.cc:142 StartEverything: init_status == 0
+09-12 17:09:21.371  7111  7149 I bt_gd_shim: system/main/shim/stack.cc:147 StartEverything: Successfully toggled Gd stack
+09-12 17:09:21.371  7111  7149 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:124 Init: init BleScannerInterfaceImpl
+09-12 17:09:21.371  7111  7149 I bt_core_module: system/btcore/src/module.cc:90 module_start_up: Started module "gd_shim_module"
+09-12 17:09:21.372  7111  7149 I bt_btif_core: system/btif/src/btif_core.cc:154 btif_init_bluetooth: entered
+09-12 17:09:21.372  7111  7161 I bluetooth: system/common/message_loop_thread.cc:176 Run: message loop starting for thread bt_jni_thread
+09-12 17:09:21.372  7111  7149 I bt_btif_core: system/btif/src/btif_core.cc:158 btif_init_bluetooth: finished
+09-12 17:09:21.372  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:1477 on_apcf_read_extended_features_complete: set is_ad_type_filter_supported_ to true & is_transport_discovery_data_filter_supported_ to false
+09-12 17:09:21.378  7111  7149 I bt_stack_config: system/main/stack_config.cc:69 init: attempt to load stack conf from /apex/com.android.bt/etc/bluetooth/bt_stack.conf
+09-12 17:09:21.379  7111  7149 I bt_stack_manager: system/btif/src/stack_manager.cc:261 event_init_stack: finished
+09-12 17:09:21.379  7111  7111 I bt_osi_wakelock: system/osi/src/wakelock.cc:91 wakelock_set_os_callouts: set to non-native
+09-12 17:09:21.379  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = socket
+09-12 17:09:21.379  7111  7150 I bt_btif_storage: system/btif/src/btif_storage.cc:610 btif_storage_get_adapter_property: Controller ready!
+09-12 17:09:21.380  7111  7111 I BluetoothKeystoreService: ComputeDataThread: create, doEncrypt: true
+09-12 17:09:21.380  7111  7111 I BluetoothKeystoreService: ComputeDataThread: create, doEncrypt: false
+09-12 17:09:21.380  7111  7162 I BluetoothKeystoreService: ComputeDataThread: run, doEncrypt: true
+09-12 17:09:21.380  7111  7163 I BluetoothKeystoreService: ComputeDataThread: run, doEncrypt: false
+09-12 17:09:21.380  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = bluetooth_keystore
+09-12 17:09:21.380  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = bqr
+09-12 17:09:21.380  7111  7111 I bluetooth: system/btif/src/btif_bqr.cc:1005 init: BluetoothQualityReportInterfaceImpl
+09-12 17:09:21.381  7111  7161 I bluetooth: system/gd/storage/config_cache.cc:301 ConvertEncryptOrDecryptKeyIfNeeded: 
+09-12 17:09:21.381  7111  7111 I bluetooth: system/btif/src/btif_hci_vs.cc:75 init: BluetoothHciVendorSpecificInterfaceImpl
+09-12 17:09:21.381  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = sdp
+09-12 17:09:21.385  7111  7111 I BluetoothAdapterService: Phone policy enabled
+09-12 17:09:21.422  7111  7111 I AdapterState: BLE_TURNING_ON : entered 
+09-12 17:09:21.423   664  2081 D BluetoothSystemServer: BluetoothManagerService: IBluetoothCallback.onBluetoothStateChange: prevState=OFF newState=BLE_TURNING_ON
+09-12 17:09:21.434   664   812 D BluetoothSystemServer: BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: prevState=OFF newState=BLE_TURNING_ON
+09-12 17:09:21.434   664   812 D BluetoothSystemServer: BluetoothManagerService: bluetoothStateChangeHandler: Already in state BLE_TURNING_ON
+09-12 17:09:21.460  7111  7164 I BluetoothDatabaseManager: cacheMetadata
+09-12 17:09:21.460  7111  7164 I BluetoothDatabaseManager: cacheMetadata: Database is ready
+09-12 17:09:21.481  7111  7111 I AdapterProperties: init(), maxConnectedAudioDevices, default=5, propertyOverlayed=5, finalValue=5
+09-12 17:09:21.493  7111  7168 I BluetoothBondStateMachine: StableState(): Entering Off State
+09-12 17:09:21.495  7111  7111 I BluetoothAdapterService: startGattProfileService() called
+09-12 17:09:21.498  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = gatt
+09-12 17:09:21.498  7111  7111 I bluetooth: system/bta/gatt/bta_gatts_api.cc:371 BTA_GATTS_InitBonded: 
+09-12 17:09:21.499  7111  7150 I bt_bta_sys_main: system/bta/sys/bta_sys_main.cc:80 bta_sys_event: Ignoring receipt of unregistered event id:BTA_ID_GATTS[32]
+09-12 17:09:21.500  7111  7111 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:447 RegisterCallbacks: in shim layer
+09-12 17:09:21.506  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:2 len:6
+09-12 17:09:21.506   664  2175 D BluetoothSystemServer: BluetoothManagerService: IBluetoothCallback.onAdapterAddressChange: XX:XX:XX:XX:17:00
+09-12 17:09:21.506   664   812 V BluetoothSystemServer: BluetoothManagerService: storeAddress(XX:XX:XX:XX:17:00): Success
+09-12 17:09:21.508  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:1 len:19
+09-12 17:09:21.508   664  2175 D BluetoothSystemServer: BluetoothManagerService: IBluetoothCallback.onAdapterNameChange: sdk_gphone16k_arm64
+09-12 17:09:21.508   664   812 V BluetoothSystemServer: BluetoothManagerService: storeName(sdk_gphone16k_arm64): Success
+09-12 17:09:21.508  7111  7149 I bt_stack_manager: system/btif/src/stack_manager.cc:285 event_start_up_stack: is bringing up the stack
+09-12 17:09:21.508  7111  7149 I bt_stack_manager: system/btif/src/stack_manager.cc:289 event_start_up_stack: Gd shim module enabled
+09-12 17:09:21.508  7111  7149 I bt_core_module: system/btcore/src/module.cc:85 module_start_up: Starting module "btif_config_module"
+09-12 17:09:21.508  7111  7149 I bt_core_module: system/btcore/src/module.cc:90 module_start_up: Started module "btif_config_module"
+09-12 17:09:21.508  7111  7149 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0001
+09-12 17:09:21.509  7111  7149 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x001f
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:1261 GATT_Register: Allocated name:GattProfileDb uuid:81818181-8181-8181-8181-818181818181 gatt_if:41 eatt_support:false
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:187 GATTS_AddService: 
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:302 GATTS_AddService: service parsed correctly, now starting
+09-12 17:09:21.509  7111  7149 I bluetooth: system/stack/gatt/gatt_sr_hash.cc:126 gatts_calculate_database_hash: hash=80AEB10BC70DCCEFA207489DCED98FED
+09-12 17:09:21.509  7111  7149 I bt_l2cap: system/stack/l2cap/l2c_api.cc:427 L2CA_RegisterLECoc: Registered service LE COC PSM: 0x0027
+09-12 17:09:21.509  7111  7149 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0003
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:1261 GATT_Register: Allocated name:Gap uuid:82828282-8282-8282-8282-828282828282 gatt_if:42 eatt_support:false
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:187 GATTS_AddService: 
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:302 GATTS_AddService: service parsed correctly, now starting
+09-12 17:09:21.509  7111  7149 I bluetooth: system/stack/gatt/gatt_sr_hash.cc:126 gatts_calculate_database_hash: hash=8991C462EBE9D90B9EA0DA3E16D0F513
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:1261 GATT_Register: Allocated name:Ais uuid:c5c5c5c5-c5c5-c5c5-c5c5-c5c5c5c5c5c5 gatt_if:43 eatt_support:false
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:187 GATTS_AddService: 
+09-12 17:09:21.509  7111  7149 I gatt_api: system/stack/gatt/gatt_api.cc:302 GATTS_AddService: service parsed correctly, now starting
+09-12 17:09:21.509  7111  7149 I bluetooth: system/stack/gatt/gatt_sr_hash.cc:126 gatts_calculate_database_hash: hash=847A41AC9E8CFB7486E624707B38E540
+09-12 17:09:21.510  7111  7149 W bluetooth: system/stack/btm/btm_inq.cc:1031 btm_clr_inq_result_flt: Memory being reset multiple times
+09-12 17:09:21.510  7111  7149 I bt_btm_pm: system/stack/acl/btm_pm.cc:371 btm_pm_reset: reset pm
+09-12 17:09:21.510  7111  7149 I btm_acl : system/stack/acl/btm_acl.cc:664 check_link_policy: park not supported (settings: 0x0007)
+09-12 17:09:21.512  7111  7149 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:245 BTA_dm_on_hw_on: Read default class of device [0x5a, 0x2, 0xc]
+09-12 17:09:21.512  7111  7149 I bt_btm_sec: system/stack/btm/btm_sec.cc:347 BTM_SecRegister: p_cb_info->p_le_callback == 0x0x739d4f15882c
+09-12 17:09:21.512  7111  7149 I bt_btm_sec: system/stack/btm/btm_sec.cc:361 BTM_SecRegister: btm_sec_cb.api.p_le_callback = 0x0x739d4f15882c
+09-12 17:09:21.512  7111  7149 I bluetooth: system/gd/lpp/lpp_offload_manager.cc:53 get_socket_capabilities: 
+09-12 17:09:21.512  7111  7149 I bluetooth: system/stack/btm/ble_scanner_hci_interface.cc:305 Initialize: Periodic Adv Sync Transfer Recipient role is supported
+09-12 17:09:21.513  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:13 len:32
+09-12 17:09:21.514  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:27 len:2
+09-12 17:09:21.516  7111  7150 I gatt_api: system/stack/gatt/gatt_api.cc:1261 GATT_Register: Allocated name:bta_dm_disc_gatt uuid:afd741ac-2836-e47f-4598-a947fc2ea5df gatt_if:44 eatt_support:false
+09-12 17:09:21.516  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_disc.cc:471 operator(): Registered device discovery search gatt client tGATT_IF:44
+09-12 17:09:21.530  7111  7150 I bt_btif_dm: system/btif/src/btif_dm.cc:2001 BTIF_dm_enable: Local BLE Privacy enabled:true
+09-12 17:09:21.530  7111  7150 W bt_btm_ble: system/stack/btm/btm_ble_gap.cc:736 BTM_BleConfigPrivacy: 1
+09-12 17:09:21.530  7111  7150 I bt_btif_storage: system/btif/src/btif_storage.cc:610 btif_storage_get_adapter_property: Controller ready!
+09-12 17:09:21.530  7111  7150 I bt_btif_storage: system/btif/src/btif_storage.cc:635 btif_storage_get_adapter_property: Service_mask=0x20000000
+09-12 17:09:21.530  7111  7150 I bluetooth: system/btif/src/btif_bqr.cc:472 EnableBtQualityReport: 
+09-12 17:09:21.530  7111  7150 W bluetooth: system/btif/src/btif_bqr.cc:433 EnableDisableBtQualityReport: Bluetooth Quality Report is disabled. bqr_prop_evtmask: 
+09-12 17:09:21.530  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:116 SetPrivacyPolicyForInitiatorAddress: New policy: LeAddressManager::AddressPolicy::USE_RESOLVABLE_ADDRESS(0x4)
+09-12 17:09:21.530  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:154 SetPrivacyPolicyForInitiatorAddress: minimum_rotation_time_=420000ms, maximum_rotation_time_=900000ms
+09-12 17:09:21.530  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:8 len:0
+09-12 17:09:21.530  7111  7173 I bt_osi_thread: system/osi/src/thread.cc:223 run_thread: thread id 7173, thread name btif_sock
+09-12 17:09:21.530  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:2 len:6
+09-12 17:09:21.530  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:1 len:19
+09-12 17:09:21.530  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:9 len:4
+09-12 17:09:21.531  7111  7150 I bt_btif_sock_hal: system/btif/src/btif_sock_hal.cc:59 btsock_hal_init: 
+09-12 17:09:21.531  7111  7150 I bluetooth: system/gd/lpp/lpp_offload_manager.cc:48 register_socket_hal_callbacks: 
+09-12 17:09:21.532  7111  7150 W bt_btif_sock_hal: system/btif/src/btif_sock_hal.cc:66 btsock_hal_init: RegisterSocketHalCallback() failed!
+09-12 17:09:21.532  7111  7150 W bt_btif_sock: system/btif/src/btif_sock.cc:124 btif_sock_init: error initializing socket hal: 1
+09-12 17:09:21.532  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x1200 into extended inquiry response
+09-12 17:09:21.532  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.532  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:8 len:0
+09-12 17:09:21.532  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:3 len:0
+09-12 17:09:21.532  7111  7150 I bt_btif_core: system/btif/src/btif_core.cc:231 btif_enable_bluetooth_evt: Bluetooth enable event completed
+09-12 17:09:21.532  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.532  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:1011 jv_dm_cback: handling event:BTA_JV_ENABLE_EVT, slot_id:0
+09-12 17:09:21.532  7111  7149 I bt_stack_manager: system/btif/src/stack_manager.cc:324 event_start_up_stack: Starting rust module
+09-12 17:09:21.532  7111  7149 I bt_core_module: system/btcore/src/module.cc:85 module_start_up: Starting module "rust_module"
+09-12 17:09:21.533  7111  7174 I bluetooth_core: starting Rust modules
+09-12 17:09:21.533  7111  7174 I bluetooth: system/stack/arbiter/acl_arbiter.cc:132 StoreCallbacksFromRust: Received callbacks from Rust, registering in Arbiter
+09-12 17:09:21.533  7111  7174 I bluetooth_core: starting event loop
+09-12 17:09:21.534  7111  7149 I bt_core_module: system/btcore/src/module.cc:90 module_start_up: Started module "rust_module"
+09-12 17:09:21.534  7111  7149 I bt_stack_manager: system/btif/src/stack_manager.cc:333 event_start_up_stack: finished
+09-12 17:09:21.534  7111  7150 I bluetooth: system/bta/ras/ras_server.cc:98 do_initialize: controller does not support channel sounding.
+09-12 17:09:21.534  7111  7150 I bluetooth: system/bta/ras/ras_client.cc:155 do_initialize: controller does not support channel sounding.
+09-12 17:09:21.535  7111  7111 I AdapterState: BLE_ON : entered 
+09-12 17:09:21.535   664  1630 D BluetoothSystemServer: BluetoothManagerService: IBluetoothCallback.onBluetoothStateChange: prevState=BLE_TURNING_ON newState=BLE_ON
+09-12 17:09:21.536  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:777 OnCommandComplete: Received command complete with op_code LE_SET_RANDOM_ADDRESS(0x2005)
+09-12 17:09:21.536  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:797 OnCommandComplete: update random address : xx:xx:xx:xx:3d:bb
+09-12 17:09:21.536  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:392 resume_registered_clients: Resuming registered clients
+09-12 17:09:21.536   664   812 D BluetoothSystemServer: BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: prevState=BLE_TURNING_ON newState=BLE_ON
+09-12 17:09:21.536   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=BLE_STATE_CHANGED prevState=BLE_TURNING_ON newState=BLE_ON
+09-12 17:09:21.537   664   812 D BluetoothSystemServer: BluetoothManagerService: isBluetoothPersistedStateOnBluetooth: 1
+09-12 17:09:21.537   664   812 I BluetoothSystemServer: BluetoothManagerService: continueFromBleOnState: Starting br edr
+09-12 17:09:21.537   664   812 D BluetoothSystemServer: BluetoothManagerService: bleOnToOn: sending request
+09-12 17:09:21.537   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=BLE_STATE_CHANGED prevState=BLE_ON newState=TURNING_ON
+09-12 17:09:21.538   664   664 D BluetoothAdapter: isLeEnabled(): TURNING_ON
+09-12 17:09:21.539  7111  7111 I AdapterState: TURNING_ON : entered 
+09-12 17:09:21.539   664  1630 D BluetoothSystemServer: BluetoothManagerService: IBluetoothCallback.onBluetoothStateChange: prevState=BLE_ON newState=TURNING_ON
+09-12 17:09:21.540  7111  7111 I BluetoothAdapterService: setProfileServiceState(A2DP, 12): starting profile
+09-12 17:09:21.540   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=STATE_CHANGED prevState=OFF newState=TURNING_ON
+09-12 17:09:21.541  7111  7111 I A2dpService: Max connected audio devices set to 5
+09-12 17:09:21.542   664   812 I BluetoothSystemServer: BluetoothServerProxy: setBluetoothPersistedState(1)
+09-12 17:09:21.543   664   812 W BluetoothSystemServer: BluetoothManagerService: bluetooth is recovered from error
+09-12 17:09:21.543   664   812 D BluetoothSystemServer: BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: prevState=BLE_ON newState=TURNING_ON
+09-12 17:09:21.544  7111  7111 I bluetooth-a2dp: system/btif/src/btif_av.cc:3387 btif_av_source_init: 
+09-12 17:09:21.544   664   812 D BluetoothSystemServer: BluetoothManagerService: bluetoothStateChangeHandler: Already in state TURNING_ON
+09-12 17:09:21.544   664   664 D BluetoothAdapter: isLeEnabled(): TURNING_ON
+09-12 17:09:21.544   664   664 D BluetoothAdapter: isLeEnabled(): TURNING_ON
+09-12 17:09:21.544  7111  7150 I bluetooth-a2dp: system/btif/src/btif_av.cc:1131 Init: max_connected_audio_devices=5
+09-12 17:09:21.545  7111  7150 I bluetooth-a2dp: system/btif/src/btif_av.cc:1161 Cleanup: 
+09-12 17:09:21.545  7111  7150 I bluetooth-a2dp: system/btif/src/btif_av.cc:1335 CleanupAllPeers: 
+09-12 17:09:21.545  7111  7150 I bluetooth-a2dp: system/btif/src/btif_av.cc:1137 Init: a2dp_offload.enable=false
+09-12 17:09:21.545  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:642 init: 
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:670 init: OPUS codec disabled, updated priority to -1
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec LDAC, idx 4
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX-HD, idx 3
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX, idx 2
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec AAC, idx 1
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec SBC, idx 0
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec Opus SINK, idx 13
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec AAC SINK, idx 12
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec SBC SINK, idx 11
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:642 init: 
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:670 init: OPUS codec disabled, updated priority to -1
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec LDAC, idx 4
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX-HD, idx 3
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX, idx 2
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec AAC, idx 1
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec SBC, idx 0
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec Opus SINK, idx 13
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec AAC SINK, idx 12
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec SBC SINK, idx 11
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:642 init: 
+09-12 17:09:21.546  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:670 init: OPUS codec disabled, updated priority to -1
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec LDAC, idx 4
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX-HD, idx 3
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX, idx 2
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec AAC, idx 1
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec SBC, idx 0
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec Opus SINK, idx 13
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec AAC SINK, idx 12
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec SBC SINK, idx 11
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:642 init: 
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:670 init: OPUS codec disabled, updated priority to -1
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec LDAC, idx 4
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX-HD, idx 3
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX, idx 2
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec AAC, idx 1
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec SBC, idx 0
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec Opus SINK, idx 13
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec AAC SINK, idx 12
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec SBC SINK, idx 11
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:642 init: 
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:670 init: OPUS codec disabled, updated priority to -1
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec LDAC, idx 4
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX-HD, idx 3
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX, idx 2
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec AAC, idx 1
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec SBC, idx 0
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec Opus SINK, idx 13
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec AAC SINK, idx 12
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec SBC SINK, idx 11
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:642 init: 
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:670 init: OPUS codec disabled, updated priority to -1
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec LDAC, idx 4
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX-HD, idx 3
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec aptX, idx 2
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec AAC, idx 1
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:699 init: initialized Source codec SBC, idx 0
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec Opus SINK, idx 13
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec AAC SINK, idx 12
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/stack/a2dp/a2dp_codec_config.cc:706 init: initialized Sink codec SBC SINK, idx 11
+09-12 17:09:21.547  7111  7150 I bluetooth-a2dp: system/btif/src/btif_a2dp_source.cc:329 btif_a2dp_source_init: 
+09-12 17:09:21.547   952   952 D PowerNotificationWarningsGoogleImpl: onReceive: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.547   952   952 D PulsarController: dispatchIntent: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.547   952   952 D IncompatibleChargerNotification: dispatchIntent: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.548  7111  7175 I bluetooth: system/common/message_loop_thread.cc:176 Run: message loop starting for thread bt_a2dp_source_worker_thread
+09-12 17:09:21.548  7111  7150 I bluetooth-a2dp: system/btif/src/btif_av.cc:3795 btif_av_source_execute_service: enable=true
+09-12 17:09:21.548  7111  7150 I bt_btif_storage: system/btif/src/btif_storage.cc:635 btif_storage_get_adapter_property: Service_mask=0x20000008
+09-12 17:09:21.548  7111  7150 I bluetooth-a2dp: system/btif/src/btif_a2dp_source.cc:410 btif_a2dp_source_init_delayed: 
+09-12 17:09:21.548  7111  7150 I BTAudioA2dpAIDL: system/audio_hal_interface/aidl/a2dp/a2dp_encoding_aidl.cc:367 init: 
+09-12 17:09:21.549  7111  7111 I BluetoothAdapterService: setProfileServiceState(A2DP, 12): completed in 8ms
+09-12 17:09:21.549  7111  7111 I BluetoothAdapterService: setProfileServiceState(AVRCP, 12): starting profile
+09-12 17:09:21.553   451   465 I BTAudioProviderFactoryAIDL: getProviderCapabilities - SessionType=A2DP_SOFTWARE_ENCODING_DATAPATH supports 1 codecs
+09-12 17:09:21.556  7111  7150 I BTAudioClientAIDL: system/audio_hal_interface/aidl/a2dp/client_interface_aidl.cc:196 FetchAudioProvider: BluetoothAudioHal SessionType=A2DP_SOFTWARE_ENCODING_DATAPATH has 1 AudioCapabilities
+09-12 17:09:21.556   451   464 I BTAudioProviderFactoryAIDL: openProvider - SessionType=A2DP_SOFTWARE_ENCODING_DATAPATH
+09-12 17:09:21.556   451   464 I BTAudioProviderA2dpSW: A2dpSoftwareAudioProvider - size of audio buffer 7680 byte(s)
+09-12 17:09:21.557  7111  7150 W droid.bluetooth: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+09-12 17:09:21.557  7111  7150 I BTAudioClientAIDL: system/audio_hal_interface/aidl/a2dp/client_interface_aidl.cc:217 FetchAudioProvider: IBluetoothAudioProvidersFactory::openProvider() returned 0xb400739fff205f50 (remote)
+09-12 17:09:21.557  7111  7150 I bluetooth-a2dp: system/bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105
+09-12 17:09:21.558  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0019
+09-12 17:09:21.558  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0017
+09-12 17:09:21.558  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x001b
+09-12 17:09:21.558  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x110A into extended inquiry response
+09-12 17:09:21.558  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.559  7111  7150 I bluetooth-a2dp: system/bta/av/bta_av_act.cc:345 bta_av_rc_create: Skipping RC creation for the old AVRCP profile
+09-12 17:09:21.559  7111  7150 I bluetooth-a2dp: system/bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105
+09-12 17:09:21.559  7111  7150 I bluetooth-a2dp: system/bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105
+09-12 17:09:21.559  7111  7150 I bluetooth-a2dp: system/bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105
+09-12 17:09:21.559  7111  7150 I bluetooth-a2dp: system/bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105
+09-12 17:09:21.559  7111  7150 I bluetooth-a2dp: system/bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105
+09-12 17:09:21.564   664  1630 D MediaSessionService: The MediaKeyEventSessionChangedListener (android.os.BinderProxy@42d91f7) is added by com.google.android.bluetooth
+09-12 17:09:21.568  7111  7111 I AvrcpTargetService: Starting the AVRCP Target Service
+09-12 17:09:21.569  7111  7150 I bluetooth: system/btif/avrcp/avrcp_service.cc:395 Init: AVRCP Target Service started
+09-12 17:09:21.569  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x110C into extended inquiry response
+09-12 17:09:21.569  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.569  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x110E into extended inquiry response
+09-12 17:09:21.569  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.569  7111  7150 I avrcp   : system/profile/avrcp/connection_handler.cc:221 AvrcpConnect: Connect to device ff:ff:ff:ff:ff:ff
+09-12 17:09:21.569  7111  7150 I avrcp   : system/profile/avrcp/connection_handler.cc:240 AvrcpConnect: handle=0x0 status=0x0
+09-12 17:09:21.571  7111  7111 I BrowsedPlayerWrapper: Wrapping Media Browser com.google.android.bluetooth
+09-12 17:09:21.572  7111  7111 I BrowsedPlayerWrapper: Wrapping Media Browser com.google.android.googlequicksearchbox
+09-12 17:09:21.572  7111  7111 E AvrcpTargetService: Please use AVRCP version 1.6 to enable cover art
+09-12 17:09:21.573  7111  7111 I BluetoothAdapterService: setProfileServiceState(AVRCP, 12): completed in 24ms
+09-12 17:09:21.573  7111  7111 I BluetoothAdapterService: setProfileServiceState(HEADSET, 12): starting profile
+09-12 17:09:21.578  7111  7111 I HeadsetService: mIsAptXSwbEnabled: false
+09-12 17:09:21.578  7111  7111 I HeadsetService: mIsAptXSwbPmEnabled: false
+09-12 17:09:21.578  7111  7111 W HeadsetClientService: getHeadsetClientService(): service is null
+09-12 17:09:21.578  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = handsfree
+09-12 17:09:21.579  7111  7111 I bt_btif_hf: system/btif/src/btif_hf.cc:1608 ExecuteService: service starts to: Initialize
+09-12 17:09:21.580  7111  7111 I bt_btif_storage: system/btif/src/btif_storage.cc:635 btif_storage_get_adapter_property: Service_mask=0x20000048
+09-12 17:09:21.580  7111  7150 I bluetooth: system/bta/ag/bta_ag_main.cc:408 bta_ag_api_enable: AG api enable
+09-12 17:09:21.581  7111  7150 I bluetooth: system/bta/ag/bta_ag_sdp.cc:178 bta_ag_add_record: features: 135023
+09-12 17:09:21.581  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x1112 into extended inquiry response
+09-12 17:09:21.581  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.581  7111  7150 I bluetooth: system/bta/ag/bta_ag_sdp.cc:178 bta_ag_add_record: features: 135023
+09-12 17:09:21.581  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x111F into extended inquiry response
+09-12 17:09:21.581  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.581  7111  7111 E BluetoothHeadsetServiceJni: android/app/jni/com_android_bluetooth_hfp.cpp:973 enableSwbNative: Failed to disable
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=true, mtu=256, uuid=0x1112, dlci=4, signal_state=0xb, p_port=0x739d4f9ba398
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=3, is_server=true, mtu=256, uuid=0x111f, dlci=6, signal_state=0xb, p_port=0x739d4f9ba488
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=true, mtu=256, uuid=0x1112, dlci=4, signal_state=0xb, p_port=0x739d4f9ba578
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=3, is_server=true, mtu=256, uuid=0x111f, dlci=6, signal_state=0xb, p_port=0x739d4f9ba668
+09-12 17:09:21.581  7111  7161 I bt_btif_hf: system/btif/src/btif_hf.cc:335 btif_hf_upstreams_evt: AG enable/disable event 0
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=true, mtu=256, uuid=0x1112, dlci=4, signal_state=0xb, p_port=0x739d4f9ba758
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=3, is_server=true, mtu=256, uuid=0x111f, dlci=6, signal_state=0xb, p_port=0x739d4f9ba848
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=true, mtu=256, uuid=0x1112, dlci=4, signal_state=0xb, p_port=0x739d4f9ba938
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=3, is_server=true, mtu=256, uuid=0x111f, dlci=6, signal_state=0xb, p_port=0x739d4f9baa28
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=true, mtu=256, uuid=0x1112, dlci=4, signal_state=0xb, p_port=0x739d4f9bab18
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=3, is_server=true, mtu=256, uuid=0x111f, dlci=6, signal_state=0xb, p_port=0x739d4f9bac08
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=true, mtu=256, uuid=0x1112, dlci=4, signal_state=0xb, p_port=0x739d4f9bacf8
+09-12 17:09:21.581  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.581  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=3, is_server=true, mtu=256, uuid=0x111f, dlci=6, signal_state=0xb, p_port=0x739d4f9bade8
+09-12 17:09:21.582  7111  7111 I BluetoothAdapterService: setProfileServiceState(HEADSET, 12): completed in 8ms
+09-12 17:09:21.582  7111  7111 I BluetoothAdapterService: setProfileServiceState(HEARING_AID, 12): starting profile
+09-12 17:09:21.582  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = hearing_aid
+09-12 17:09:21.583  7111  7111 I BluetoothAdapterService: setProfileServiceState(HEARING_AID, 12): completed in 1ms
+09-12 17:09:21.583  7111  7111 I BluetoothAdapterService: setProfileServiceState(HID_DEVICE, 12): starting profile
+09-12 17:09:21.583  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = hiddev
+09-12 17:09:21.583  7111  7111 I bt_btif_storage: system/btif/src/btif_storage.cc:635 btif_storage_get_adapter_property: Service_mask=0x60000048
+09-12 17:09:21.583  7111  7150 I bluetooth-asha: system/bta/hearing_aid/hearing_aid.cc:327 HearingAidImpl: default_data_interval_ms=20 overwrite_min_ce_len=-1 overwrite_max_ce_len=-1
+09-12 17:09:21.584  7111  7150 I bluetooth: system/stack/btm/btm_iso_impl.h:98 iso_impl: 0xb400739e7f206650 created, iso credits: 12, buffer size: 1021.
+09-12 17:09:21.584  7111  7150 I BTAudioHearingAidAIDL: system/audio_hal_interface/aidl/hearing_aid_software_encoding_aidl.cc:176 init: 
+09-12 17:09:21.585  7111  7111 I BluetoothAdapterService: setProfileServiceState(HID_DEVICE, 12): completed in 1ms
+09-12 17:09:21.585  7111  7111 I BluetoothAdapterService: setProfileServiceState(HID_HOST, 12): starting profile
+09-12 17:09:21.585  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = hidhost
+09-12 17:09:21.585   451   464 I BTAudioProviderFactoryAIDL: getProviderCapabilities - SessionType=HEARING_AID_SOFTWARE_ENCODING_DATAPATH supports 1 codecs
+09-12 17:09:21.585  7111  7150 I BTAudioClientAIDL: system/audio_hal_interface/aidl/client_interface_aidl.cc:163 FetchAudioProvider: BluetoothAudioHal SessionType=HEARING_AID_SOFTWARE_ENCODING_DATAPATH has 1 AudioCapabilities
+09-12 17:09:21.585  7111  7111 I bt_btif_storage: system/btif/src/btif_storage.cc:635 btif_storage_get_adapter_property: Service_mask=0x60100048
+09-12 17:09:21.586  7111  7111 I BluetoothAdapterService: setProfileServiceState(HID_HOST, 12): completed in 0ms
+09-12 17:09:21.586  7111  7111 I BluetoothAdapterService: setProfileServiceState(MAP, 12): starting profile
+09-12 17:09:21.586   451   464 I BTAudioProviderFactoryAIDL: openProvider - SessionType=HEARING_AID_SOFTWARE_ENCODING_DATAPATH
+09-12 17:09:21.586   451   464 I BTAudioProviderHearingAid: HearingAidAudioProvider - size of audio buffer 3584 byte(s)
+09-12 17:09:21.587  7111  7150 W droid.bluetooth: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+09-12 17:09:21.587  7111  7150 I BTAudioClientAIDL: system/audio_hal_interface/aidl/client_interface_aidl.cc:184 FetchAudioProvider: IBluetoothAudioProvidersFactory::openProvider() returned 0xb400739fff20ba70 (remote)
+09-12 17:09:21.587  7111  7150 I gatt_api: system/stack/gatt/gatt_api.cc:1261 GATT_Register: Allocated name:asha uuid:036800dc-099a-bc16-2dc8-11fc6814ee16 gatt_if:45 eatt_support:false
+09-12 17:09:21.587  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0011
+09-12 17:09:21.587  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0013
+09-12 17:09:21.588  7111  7150 I bluetooth: system/bta/le_audio/client.cc:7015 RegisterIsoDataConsumer: ISO data consumer changed
+09-12 17:09:21.588  7111  7150 I gatt_api: system/stack/gatt/gatt_api.cc:1261 GATT_Register: Allocated name:hid uuid:8b29ae6e-6bc6-2eaf-90e0-367e67ebc858 gatt_if:46 eatt_support:false
+09-12 17:09:21.592  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.592  7111  7111 I BluetoothAdapterService: setProfileServiceState(MAP, 12): completed in 6ms
+09-12 17:09:21.592  7111  7111 I BluetoothAdapterService: setProfileServiceState(MCP_SERVER, 12): starting profile
+09-12 17:09:21.593  1270  1769 D BluetoothAdapter: isLeEnabled(): TURNING_ON
+09-12 17:09:21.594  1270  1769 D BluetoothAdapter: isLeEnabled(): TURNING_ON
+09-12 17:09:21.596  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.596  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.596  1270  1769 D BluetoothAdapter: isLeEnabled(): TURNING_ON
+09-12 17:09:21.597  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.597  7111  7111 I BrowsedPlayerWrapper: Wrapping Media Browser com.google.android.bluetooth
+09-12 17:09:21.597  7111  7111 I BrowsedPlayerWrapper: Wrapping Media Browser com.google.android.googlequicksearchbox
+09-12 17:09:21.597  7111  7111 W LeAudioService: getLeAudioService(): service is NULL
+09-12 17:09:21.597  1270  1769 I NearbySharing: Bluetooth is disabled
+09-12 17:09:21.598  1270  1769 I NearbySharing: Uwb feature is off.
+09-12 17:09:21.598  1270  1769 I NearbySharing: Stopping scanning because Bluetooth is disabled.
+09-12 17:09:21.599  1270  1769 I NearbySharing: Stopping Fast Init advertisement because Bluetooth is off.
+09-12 17:09:21.599  1270  1769 I NearbySharing: Stopping advertising because Bluetooth is disabled.
+09-12 17:09:21.599  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:21.601  7111  7177 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+09-12 17:09:21.601  7111  7177 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+09-12 17:09:21.604  1270  1769 I NearbySharing: Fast Initiation Scanning has stopped
+09-12 17:09:21.604  1270  1769 I NearbySharing: Stopping FastInitiation scanning because Bluetooth is disabled.
+09-12 17:09:21.605  1270  1769 I NearbySharing: Dismissing HUN as there's no device nearby.
+09-12 17:09:21.606  7111  7150 I gatt_api: system/stack/gatt/gatt_api.cc:1673 gatt_load_bonded: load bonded: False
+09-12 17:09:21.606  7111  7150 I bluetooth: system/bta/gatt/bta_gatts_act.cc:193 bta_gatts_register: register application first_unuse rcb_idx=0
+09-12 17:09:21.606  7111  7150 I gatt_api: system/stack/gatt/gatt_api.cc:1261 GATT_Register: Allocated name:GattServer uuid:e56c1c69-4255-4528-875d-d879f5c6e031 gatt_if:47 eatt_support:false
+09-12 17:09:21.608  1270  1769 I NearbySharing: Broadcasting NearbySharing state change.
+09-12 17:09:21.611  7111  7111 I BluetoothAdapterService: setProfileServiceState(MCP_SERVER, 12): completed in 18ms
+09-12 17:09:21.611  7111  7111 I BluetoothAdapterService: setProfileServiceState(OPP, 12): starting profile
+09-12 17:09:21.612  7111  7150 I bluetooth: system/bta/gatt/bta_gatts_api.cc:127 bta_gatts_add_service_impl: rcb_idx=0
+09-12 17:09:21.612  7111  7150 I gatt_api: system/stack/gatt/gatt_api.cc:187 GATTS_AddService: 
+09-12 17:09:21.612  7111  7150 I gatt_api: system/stack/gatt/gatt_api.cc:302 GATTS_AddService: service parsed correctly, now starting
+09-12 17:09:21.612  7111  7150 I bluetooth: system/stack/gatt/gatt_sr_hash.cc:126 gatts_calculate_database_hash: hash=28490E4319C63D46A84F88FEED5176A5
+09-12 17:09:21.612  7111  7174 I bluetooth_core::gatt::ffi: successfully registered service for server ServerId(47) with handle AttHandle(40) (service=GattServiceWithHandle { handle: AttHandle(40), type_: Uuid([0, 0, 24, 73, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), characteristics: [GattCharacteristicWithHandle { handle: AttHandle(42), type_: Uuid([0, 0, 43, 147, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(43), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(45), type_: Uuid([0, 0, 43, 150, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0), descriptors: [GattDescriptorWithHandle { handle: AttHandle(46), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(48), type_: Uuid([0, 0, 43, 151, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(49), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(51), type_: Uuid([0, 0, 43, 152, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(52), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(54), type_: Uuid([0, 0, 43, 153, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE | WRITABLE_WITHOUT_RESPONSE | WRITABLE_WITH_RESPONSE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(55), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(57), type_: Uuid([0, 0, 43, 154, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE | WRITABLE_WITHOUT_RESPONSE | WRITABLE_WITH_RESPONSE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(58), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(60), type_: Uuid([0, 0, 43, 155, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(61), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(63), type_: Uuid([0, 0, 43, 161, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE | WRITABLE_WITHOUT_RESPONSE | WRITABLE_WITH_RESPONSE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(64), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(66), type_: Uuid([0, 0, 43, 162, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE), descriptors: [] }, GattCharacteristicWithHandle { handle: AttHandle(68), type_: Uuid([0, 0, 43, 163, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(69), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(71), type_: Uuid([0, 0, 43, 164, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(WRITABLE_WITHOUT_RESPONSE | WRITABLE_WITH_RESPONSE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(72), type_: Uuid([0, 0
+09-12 17:09:21.612  7111  7174 I bluetooth_core::gatt::ffi: , 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(74), type_: Uuid([0, 0, 43, 165, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE), descriptors: [GattDescriptorWithHandle { handle: AttHandle(75), type_: Uuid([0, 0, 41, 2, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(0x0) }] }, GattCharacteristicWithHandle { handle: AttHandle(77), type_: Uuid([0, 0, 43, 186, 0, 0, 16, 0, 128, 0, 0, 128, 95, 155, 52, 251]), permissions: AttPermissions(READABLE), descriptors: [] }] })
+09-12 17:09:21.614  1270  3887 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:21.615  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.615   664  2175 W BluetoothSystemServer: BluetoothServiceBinder: getAddress(): Client does not have LOCAL_MAC_ADDRESS permission
+09-12 17:09:21.615  7111  7161 W MediaControlGattService: Feature MEDIA_STATE(BIT 17) support: true
+09-12 17:09:21.616  7111  7179 I BluetoothSocketManagerBinder: createSocketChannel: type=1, serviceName=null, uuid=00000000-0000-0000-0000-000000000000, port=-2, from uid/pid=1002/7111
+09-12 17:09:21.616  7111  7179 I bt_btif_sock: system/btif/src/btif_sock.cc:173 btsock_listen: Attempting listen for socket connections for device: 00:00:00:00:00:00, type: 1, channel: -2, app_uid: 1002, data_path: 0, hub_id: 0, endpoint_id: 0, max_rx_packet_size: 0
+09-12 17:09:21.616  7111  7179 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:401 btsock_rfc_listen: Adding listening socket service_name: (nullptr) - channel: -2
+09-12 17:09:21.616  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:1011 jv_dm_cback: handling event:BTA_JV_GET_SCN_EVT, slot_id:1
+09-12 17:09:21.617  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.617  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.617  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=4, is_server=true, mtu=990, uuid=0x0, dlci=8, signal_state=0xb, p_port=0x739d4f9baed8
+09-12 17:09:21.617  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:963 rfcomm_cback: handling BTA_JV_RFCOMM_START_EVT, slot_id:1
+09-12 17:09:21.617  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:651 on_srv_rfc_listen_started: listening for RFCOMM socket connections for device: 00:00:00:00:00:00, scn: 4, app_uid: 1002, id: 1
+09-12 17:09:21.619  7111  7161 W MediaControlGattService: Feature PLAYER_NAME(BIT 1) support: true
+09-12 17:09:21.619  7111  7161 W MediaControlGattService: Feature PLAYER_NAME_NOTIFY support: true
+09-12 17:09:21.620  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature PLAYER_ICON_URL(BIT 3) support: false
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature PLAYER_ICON_OBJ_ID(BIT 2) support: false
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature CURRENT_TRACK_SEGMENT_OBJ_ID(BIT 10) support: false
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature CURRENT_TRACK_OBJ_ID(BIT 11) support: false
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature NEXT_TRACK_OBJ_ID(BIT 12) support: false
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature CURRENT_GROUP_OBJ_ID(BIT 13) support: false
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature PARENT_GROUP_OBJ_ID(BIT 14) support: false
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature SEARCH_RESULT_OBJ_ID(BIT 20) support: false
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature TRACK_TITLE(BIT 5) support: true
+09-12 17:09:21.620  7111  7161 W MediaControlGattService: Feature TRACK_TITLE_NOTIFY support: true
+09-12 17:09:21.621  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.621   664  2175 W BluetoothSystemServer: BluetoothServiceBinder: getAddress(): Client does not have LOCAL_MAC_ADDRESS permission
+09-12 17:09:21.621  7111  7161 W MediaControlGattService: Feature TRACK_DURATION(BIT 6) support: true
+09-12 17:09:21.621  7111  7161 W MediaControlGattService: Feature TRACK_DURATION_NOTIFY support: true
+09-12 17:09:21.621  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.621  7111  7161 W MediaControlGattService: Feature TRACK_POSITION(BIT 7) support: true
+09-12 17:09:21.621  7111  7161 W MediaControlGattService: Feature TRACK_POSITION_NOTIFY support: true
+09-12 17:09:21.621  7111  7161 W MediaControlGattService: Feature MEDIA_STATE(BIT 17) support: true
+09-12 17:09:21.621  7111  7161 W MediaControlGattService: Feature MEDIA_STATE(BIT 17) support: true
+09-12 17:09:21.621  7111  7179 I BluetoothSocketManagerBinder: createSocketChannel: type=3, serviceName=null, uuid=00000000-0000-0000-0000-000000000000, port=-2, from uid/pid=1002/7111
+09-12 17:09:21.621  7111  7179 I bt_btif_sock: system/btif/src/btif_sock.cc:173 btsock_listen: Attempting listen for socket connections for device: 00:00:00:00:00:00, type: 3, channel: -2, app_uid: 1002, data_path: 0, hub_id: 0, endpoint_id: 0, max_rx_packet_size: 0
+09-12 17:09:21.622  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.622  7111  7179 I bluetooth: system/btif/src/btif_sock_l2cap.cc:405 btsock_l2cap_alloc_l: Allocated l2cap socket structure socket_id:1
+09-12 17:09:21.622  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:1011 jv_dm_cback: handling event:BTA_JV_GET_PSM_EVT, slot_id:1
+09-12 17:09:21.622  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x1001
+09-12 17:09:21.622  7111  7150 I bluetooth: system/btif/src/btif_sock_l2cap.cc:513 on_srv_l2cap_listen_started: Listening for L2CAP connection for device: 00:00:00:00:00:00, channel: 4097, app_uid: 1002, id: 1, is_le: false
+09-12 17:09:21.622  7111  7150 I bluetooth: system/btif/src/btif_sock_l2cap.cc:431 send_app_psm_or_chan_l: Sending l2cap socket socket_id:1 channel:4097
+09-12 17:09:21.622  7111  7161 W MediaControlGattService: Feature PLAYBACK_SPEED(BIT 8) support: true
+09-12 17:09:21.622  7111  7161 W MediaControlGattService: Feature PLAYBACK_SPEED(BIT 8) support: true
+09-12 17:09:21.623  7111  7161 W MediaControlGattService: Feature PLAYBACK_SPEED_NOTIFY support: true
+09-12 17:09:21.622  1270  7138 I ProximityAuth: [PhoneHubService] Bluetooth state has changed. Calling startService.
+09-12 17:09:21.623  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x1132 into extended inquiry response
+09-12 17:09:21.623  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.624  7111  7150 I bt_btif_storage: system/btif/src/btif_storage.cc:635 btif_storage_get_adapter_property: Service_mask=0x62100048
+09-12 17:09:21.624  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:21.625  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.625  7111  7161 W MediaControlGattService: Feature SEEKING_SPEED(BIT 9) support: true
+09-12 17:09:21.625  7111  7161 W MediaControlGattService: Feature SEEKING_SPEED(BIT 9) support: true
+09-12 17:09:21.625  7111  7161 W MediaControlGattService: Feature SEEKING_SPEED_NOTIFY support: true
+09-12 17:09:21.625  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.625  7111  7161 W MediaControlGattService: Feature PLAYING_ORDER_SUPPORTED(BIT 16) support: true
+09-12 17:09:21.625  1270  7139 I Nearby  : (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+09-12 17:09:21.625  7111  7161 W MediaControlGattService: Feature PLAYING_ORDER(BIT 15) support: true
+09-12 17:09:21.625  7111  7161 W MediaControlGattService: Feature PLAYING_ORDER_NOTIFY support: true
+09-12 17:09:21.626  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.626  7111  7161 W MediaControlGattService: Feature MEDIA_CONTROL_POINT_OPCODES_SUPPORTED(BIT 19) support: true
+09-12 17:09:21.626  7111  7161 W MediaControlGattService: Feature MEDIA_CONTROL_POINT_OPCODES_SUPPORTED_NOTIFY support: true
+09-12 17:09:21.627  7111  7161 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.627  7111  7161 W MediaControlGattService: Feature MEDIA_STATE(BIT 17) support: true
+09-12 17:09:21.628  7111  7161 W MediaControlGattService: Feature PLAYER_ICON_URL(BIT 3) support: false
+09-12 17:09:21.628  7111  7161 W MediaControlGattService: Feature PLAYER_ICON_OBJ_ID(BIT 2) support: false
+09-12 17:09:21.628  7111  7161 W MediaControlGattService: Feature PLAYER_NAME(BIT 1) support: true
+09-12 17:09:21.628  7111  7161 W MediaControlGattService: Feature PLAYING_ORDER_SUPPORTED(BIT 16) support: true
+09-12 17:09:21.628  7111  7161 W MediaControlProfile: MCS service state fields left unhandled: 
+09-12 17:09:21.628  7111  7161 W MediaControlProfile:    > PLAYBACK_STATE
+09-12 17:09:21.628  7111  7161 W MediaControlProfile:    > PLAYER_NAME
+09-12 17:09:21.628  7111  7161 W MediaControlProfile:    > PLAYING_ORDER_SUPPORTED
+09-12 17:09:21.629  7111  7111 I BluetoothAdapterService: setProfileServiceState(OPP, 12): completed in 17ms
+09-12 17:09:21.630  7111  7111 I BluetoothAdapterService: setProfileServiceState(PAN, 12): starting profile
+09-12 17:09:21.632  1270  7140 I NearbyMediums: ModuleInitializer handles incoming intent android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.633  7111  7111 I TetheringManager: registerTetheringEventCallback:com.google.android.bluetooth
+09-12 17:09:21.634  7111  7111 I bt_btif : system/btif/src/bluetooth.cc:915 get_profile_interface: id = pan
+09-12 17:09:21.634  7111  7111 I TetheringManager: registerTetheringEventCallback caller:com.google.android.bluetooth
+09-12 17:09:21.634  1270  1270 I ProximityAuth: [PhoneHubService] Handling intent for PhoneHubChimeraService.
+09-12 17:09:21.635  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x000f
+09-12 17:09:21.635  7111  7111 I BluetoothAdapterService: setProfileServiceState(PAN, 12): completed in 4ms
+09-12 17:09:21.635  7111  7111 I BluetoothAdapterService: setProfileServiceState(PBAP, 12): starting profile
+09-12 17:09:21.635  1270  1270 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s
+09-12 17:09:21.635  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x1116 into extended inquiry response
+09-12 17:09:21.635  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.635  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x1115 into extended inquiry response
+09-12 17:09:21.635  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.635  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x1116 into extended inquiry response
+09-12 17:09:21.635  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.635  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x1115 into extended inquiry response
+09-12 17:09:21.635  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.635  1270  1270 I NearbyDiscovery: (REDACTED) FastPair: onAdapterStateChange: state=%s
+09-12 17:09:21.635  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:21.636  1270  1769 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate start [CONTEXT service_id=265 ]
+09-12 17:09:21.637  1270  1769 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate end [CONTEXT service_id=265 ]
+09-12 17:09:21.641  1270  7135 I ProximityAuth: [PhoneHubService] No enabled account, stopping service
+09-12 17:09:21.642  1270  1270 I ProximityAuth: [PhoneHubService] Destroying PhoneHubChimeraService.
+09-12 17:09:21.642  1270  1270 W ProximityAuth: [PhoneHubNotificationProcessor] shutdown(): context is null.
+09-12 17:09:21.642  1270  1270 I ProximityAuth: [PhoneHubService] All devices have disconnected. Performing cleanup...
+09-12 17:09:21.642  1270  1270 W ChimeraUtils: Module com.google.android.gms.auth_proximity missing resource null(0)
+09-12 17:09:21.644  7111  7111 I BluetoothAdapterService: setProfileServiceState(PBAP, 12): completed in 9ms
+09-12 17:09:21.644  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:3 len:16
+09-12 17:09:21.649   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.649  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:3 len:48
+09-12 17:09:21.649  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:3 len:48
+09-12 17:09:21.649   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.649  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:3 len:48
+09-12 17:09:21.650   664  2175 W BluetoothSystemServer: BluetoothServiceBinder: getAddress(): Client does not have LOCAL_MAC_ADDRESS permission
+09-12 17:09:21.651  7111  7184 I BluetoothSocketManagerBinder: createSocketChannel: type=1, serviceName=null, uuid=00000000-0000-0000-0000-000000000000, port=-2, from uid/pid=1002/7111
+09-12 17:09:21.651  7111  7184 I bt_btif_sock: system/btif/src/btif_sock.cc:173 btsock_listen: Attempting listen for socket connections for device: 00:00:00:00:00:00, type: 1, channel: -2, app_uid: 1002, data_path: 0, hub_id: 0, endpoint_id: 0, max_rx_packet_size: 0
+09-12 17:09:21.651  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:3 len:64
+09-12 17:09:21.651  7111  7184 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:401 btsock_rfc_listen: Adding listening socket service_name: (nullptr) - channel: -2
+09-12 17:09:21.651  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:1011 jv_dm_cback: handling event:BTA_JV_GET_SCN_EVT, slot_id:2
+09-12 17:09:21.652  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.653   664  2175 W BluetoothSystemServer: BluetoothServiceBinder: getAddress(): Client does not have LOCAL_MAC_ADDRESS permission
+09-12 17:09:21.654  7111  7184 I BluetoothSocketManagerBinder: createSocketChannel: type=3, serviceName=null, uuid=00000000-0000-0000-0000-000000000000, port=-2, from uid/pid=1002/7111
+09-12 17:09:21.654  7111  7184 I bt_btif_sock: system/btif/src/btif_sock.cc:173 btsock_listen: Attempting listen for socket connections for device: 00:00:00:00:00:00, type: 3, channel: -2, app_uid: 1002, data_path: 0, hub_id: 0, endpoint_id: 0, max_rx_packet_size: 0
+09-12 17:09:21.661  1808  1808 I djiq    : Creating Amp configuration from performer module
+09-12 17:09:21.668  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=5, is_server=true, mtu=990, uuid=0x0, dlci=10, signal_state=0xb, p_port=0x739d4f9bafc8
+09-12 17:09:21.668  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:963 rfcomm_cback: handling BTA_JV_RFCOMM_START_EVT, slot_id:2
+09-12 17:09:21.668  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:651 on_srv_rfc_listen_started: listening for RFCOMM socket connections for device: 00:00:00:00:00:00, scn: 5, app_uid: 1002, id: 2
+09-12 17:09:21.668  7111  7184 I bluetooth: system/btif/src/btif_sock_l2cap.cc:405 btsock_l2cap_alloc_l: Allocated l2cap socket structure socket_id:2
+09-12 17:09:21.668  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:1011 jv_dm_cback: handling event:BTA_JV_GET_PSM_EVT, slot_id:2
+09-12 17:09:21.668  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x1003
+09-12 17:09:21.668  7111  7150 I bluetooth: system/btif/src/btif_sock_l2cap.cc:513 on_srv_l2cap_listen_started: Listening for L2CAP connection for device: 00:00:00:00:00:00, channel: 4099, app_uid: 1002, id: 2, is_le: false
+09-12 17:09:21.668  7111  7150 I bluetooth: system/btif/src/btif_sock_l2cap.cc:431 send_app_psm_or_chan_l: Sending l2cap socket socket_id:2 channel:4099
+09-12 17:09:21.671  1808  1808 I djgl    : onCreate()
+09-12 17:09:21.672  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x112F into extended inquiry response
+09-12 17:09:21.672  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.672  7111  7150 I bt_btif_storage: system/btif/src/btif_storage.cc:635 btif_storage_get_adapter_property: Service_mask=0x62500048
+09-12 17:09:21.672  7111  7150 I bt_btif_core: system/btif/src/btif_core.cc:562 btif_set_scan_mode: set scan mode : 1
+09-12 17:09:21.673   664  2171 D ActivityManager: sync unfroze 1738 android.process.acore for 7
+09-12 17:09:21.674   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.674   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.678   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.678   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:21.679  7111  7111 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.680  7111  7111 I BluetoothAdapterService: initProfileServices: Initializing all bluetooth profile services
+09-12 17:09:21.683  7111  7111 W HeadsetClientService: getHeadsetClientService(): service is null
+09-12 17:09:21.683  7111  7111 W MapClientService: getMapClientService(): service is null
+09-12 17:09:21.683  7111  7111 W PbapClientService: getPbapClientService(): service is null
+09-12 17:09:21.683  7111  7111 W HapClientService: getHapClientService(): service is NULL
+09-12 17:09:21.683  7111  7111 W SapService: getSapService(): service is null
+09-12 17:09:21.683  7111  7111 W VolumeControlService: getVolumeControlService(): service is NULL
+09-12 17:09:21.683  7111  7111 W CsipSetCoordinatorService: getCsipSetCoordinatorService(): service is NULL
+09-12 17:09:21.683  7111  7111 W LeAudioService: getLeAudioService(): service is NULL
+09-12 17:09:21.683  7111  7111 W BassClientService: getBassClientService(): service is NULL
+09-12 17:09:21.683  7111  7111 W BatteryService: getBatteryService(): service is NULL
+09-12 17:09:21.684  7111  7111 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.684  1738  1738 D ActivityThread: Package [com.rnapp] reported as REPLACED, but missing application info. Assuming REMOVED.
+09-12 17:09:21.684  7111  7111 I BluetoothCompanionManager: Companion device is null, type=0
+09-12 17:09:21.685  1738  1738 D ActivityThread: Package [com.rnapp] reported as REPLACED, but missing application info. Assuming REMOVED.
+09-12 17:09:21.685  7111  7111 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+09-12 17:09:21.685   664  2171 I MediaSessionStack: addSession to bottom of stack | record: com.google.android.bluetooth/BluetoothMediaBrowserService/8 (userId=0)
+09-12 17:09:21.689   664  2175 D MediaSessionService: onSessionPlaybackStateChanged: record=com.google.android.bluetooth/BluetoothMediaBrowserService/8 (userId=0) playbackState=PlaybackState {state=ERROR(7), position=0, buffered position=0, speed=0.0, updated=2832530, actions=0, custom actions=[], active item id=-1, error=Bluetooth audio disconnected}
+09-12 17:09:21.692  7111  7111 I BluetoothMediaBrowserService: Service set to com.android.bluetooth.avrcpcontroller.BluetoothMediaBrowserService@a72d454
+09-12 17:09:21.692  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:3 len:80
+09-12 17:09:21.692  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:9 len:4
+09-12 17:09:21.695  7111  7111 I AdapterState: ON : entered 
+09-12 17:09:21.695   664  2175 D BluetoothSystemServer: BluetoothManagerService: IBluetoothCallback.onBluetoothStateChange: prevState=TURNING_ON newState=ON
+09-12 17:09:21.695   664   812 D BluetoothSystemServer: BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: prevState=TURNING_ON newState=ON
+09-12 17:09:21.695   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=BLE_STATE_CHANGED prevState=TURNING_ON newState=ON
+09-12 17:09:21.696   664   812 D BluetoothSystemServer: BluetoothManagerService: broadcastIntentStateChange: action=STATE_CHANGED prevState=TURNING_ON newState=ON
+09-12 17:09:21.696  7111  7111 I AdapterProperties: adapterPropertyChangedCallback with type:16 len:192
+09-12 17:09:21.696   664   812 D BluetoothSystemServer: BluetoothManagerService: Broadcasting sendBluetoothOnCallback() to 11 receivers.
+09-12 17:09:21.696  7111  7111 I PlayerSettingsManager: getPlayerRepeatMode: no active player
+09-12 17:09:21.697  7111  7111 I PlayerSettingsManager: getPlayerShuffleMode: no active player
+09-12 17:09:21.697  7111  7111 I PlayerSettingsManager: updateRemoteDevice: STATE_REPEAT_OFF, STATE_SHUFFLE_OFF
+09-12 17:09:21.697  7111  7111 I bluetooth: system/btif/avrcp/avrcp_service.cc:582 SendPlayerSettingsChanged: {attribute=PlayerAttribute::REPEAT : value=PlayerRepeatValue::OFF}, {attribute=PlayerAttribute::SHUFFLE : value=PlayerShuffleValue::OFF}
+09-12 17:09:21.697  1164  6540 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.700   952  7057 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.700   952  7057 D BluetoothAdapter: PAN connected
+09-12 17:09:21.701  1164  6540 D BluetoothAdapter: PAN connected
+09-12 17:09:21.702   952  7057 D BluetoothAdapter: A2DP connected
+09-12 17:09:21.702   952  7057 D BluetoothAdapter: HEADSET connected
+09-12 17:09:21.703  1164  6540 D BluetoothAdapter: A2DP connected
+09-12 17:09:21.703  1164  6540 D BluetoothAdapter: HEADSET connected
+09-12 17:09:21.704  1164  6540 D BluetoothAdapter: HEARING_AID connected
+09-12 17:09:21.704   664   812 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:09:21.704  1164  6540 D BluetoothAdapter: PBAP connected
+09-12 17:09:21.704  1164  6540 D BluetoothAdapter: HID_DEVICE connected
+09-12 17:09:21.704  1164  6540 D BluetoothAdapter: HID_HOST connected
+09-12 17:09:21.704  1164  6540 D BluetoothAdapter: MAP connected
+09-12 17:09:21.705   664   812 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.705  1563  2352 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.705  2724  7112 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.705  1808  1829 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.706   664   664 V NearbyService: Initiating BluetoothAdapter when Bluetooth is turned on.
+09-12 17:09:21.706   664   664 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:21.706   664   664 I CDM_BleDeviceProcessor: startBleScan()
+09-12 17:09:21.706   664   664 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:21.706  7111  7111 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.706   952  7057 D BluetoothAdapter: HID_HOST connected
+09-12 17:09:21.707  1578  2399 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.707  1578  2399 D BluetoothAdapter: HEADSET connected
+09-12 17:09:21.707  1578  2399 D BluetoothAdapter: HEADSET connected
+09-12 17:09:21.709  1578  1928 I etle    : #audio# BT-headset-profile connected
+09-12 17:09:21.710   664  2172 W ActivityManager: Receiver with filter android.content.IntentFilter@79b52a7 already registered for pid 952, callerPackage is com.android.systemui
+09-12 17:09:21.710  1808  1808 W djgl    : (REDACTED) Caller %s is not allowed to use the news media browser service
+09-12 17:09:21.711  1578  1928 I etle    : (REDACTED) #audio# observed BT-devices connection changes, # of available devices(%s)
+09-12 17:09:21.711   952  7057 D BluetoothAdapter: PBAP connected
+09-12 17:09:21.712  7111  7191 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.712  1808  1808 I MediaBrowserService: No root for client com.google.android.bluetooth from service android.service.media.MediaBrowserService$ServiceState
+09-12 17:09:21.712   664   812 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+09-12 17:09:21.712   664   812 W Binder  : java.lang.Throwable
+09-12 17:09:21.712   664   812 W Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:553)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.IBluetooth$Stub$Proxy.getProfile(IBluetooth.java:4576)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.BluetoothAdapter.getProfile(BluetoothAdapter.java:4069)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.BluetoothAdapter.-$$Nest$mgetProfile(Unknown Source:0)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.BluetoothAdapter$7.lambda$connectAllProfileProxyLocked$1(BluetoothAdapter.java:3704)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.BluetoothAdapter$7.$r8$lambda$B5IIXcFbc84F3d5lEGZL2UZA3vU(Unknown Source:0)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.BluetoothAdapter$7$$ExternalSyntheticLambda0.accept(D8$$SyntheticClass:0)
+09-12 17:09:21.712   664   812 W Binder  : 	at java.util.concurrent.ConcurrentHashMap.forEach(ConcurrentHashMap.java:1608)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.BluetoothAdapter$7.connectAllProfileProxyLocked(BluetoothAdapter.java:3700)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.BluetoothAdapter$7.onBluetoothOn(BluetoothAdapter.java:3720)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.bluetooth.BluetoothAdapter$6.onBluetoothOn(BluetoothAdapter.java:3600)
+09-12 17:09:21.712   664   812 W Binder  : 	at com.android.server.bluetooth.BluetoothManagerService$$ExternalSyntheticLambda16.accept(R8$$SyntheticClass:0)
+09-12 17:09:21.712   664   812 W Binder  : 	at com.android.server.bluetooth.BluetoothManagerService.broadcastToAdapters(BluetoothManagerService.java:1186)
+09-12 17:09:21.712   664   812 W Binder  : 	at com.android.server.bluetooth.BluetoothManagerService.sendBluetoothOnCallback(BluetoothManagerService.java:1195)
+09-12 17:09:21.712   664   812 W Binder  : 	at com.android.server.bluetooth.BluetoothManagerService.bluetoothStateChangeHandler(BluetoothManagerService.java:1897)
+09-12 17:09:21.712   664   812 W Binder  : 	at com.android.server.bluetooth.BluetoothManagerService.-$$Nest$mbluetoothStateChangeHandler(BluetoothManagerService.java:0)
+09-12 17:09:21.712   664   812 W Binder  : 	at com.android.server.bluetooth.BluetoothManagerService$BluetoothHandler.handleMessage(BluetoothManagerService.java:1383)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:110)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.os.Looper.loopOnce(Looper.java:248)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.os.Looper.loop(Looper.java:338)
+09-12 17:09:21.712   664   812 W Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-12 17:09:21.713  1808  1808 W djgl    : (REDACTED) Caller %s is not allowed to use the news media browser service
+09-12 17:09:21.714   952  7057 D BluetoothAdapter: MAP connected
+09-12 17:09:21.714   664  2171 W ActivityManager: Receiver with filter android.content.IntentFilter@47b4354 already registered for pid 1164, callerPackage is com.android.settings
+09-12 17:09:21.715  7111  7111 I BluetoothMediaBrowserService: Browser Client Connection Request, client='com.google.android.bluetooth')
+09-12 17:09:21.715  7111  7111 I BluetoothMediaBrowserService: Browser Client Connection Request, client='com.google.android.bluetooth')
+09-12 17:09:21.715   664   812 D BluetoothAdapter: HEADSET connected
+09-12 17:09:21.716  1808  1808 I MediaBrowserService: No root for client com.google.android.bluetooth from service android.service.media.MediaBrowserService$ServiceState
+09-12 17:09:21.717   952  7057 D BluetoothAdapter: HEARING_AID connected
+09-12 17:09:21.717  7111  7132 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.718   664   664 I AS.BtHelper: BT profile service: connecting HEADSET profile
+09-12 17:09:21.720  1578  1928 I bmes    : #onBluetoothAudioInputDevicesChanged
+09-12 17:09:21.721   664   863 I AS.BtHelper: BT profile HEADSET connected to proxy android.bluetooth.BluetoothHeadset@968045e
+09-12 17:09:21.721   664   863 D BluetoothAdapter: getActiveDevices(HEADSET)
+09-12 17:09:21.721  7111  7193 I BluetoothAdapterService: getActiveDevices: Headset device: null
+09-12 17:09:21.721   664   812 E BluetoothAdapter: Failed to retrieve a binder for LE_AUDIO
+09-12 17:09:21.721   664   812 E BluetoothAdapter: Failed to retrieve a binder for LE_AUDIO_BROADCAST
+09-12 17:09:21.721   952  7057 D BluetoothAdapter: HID_DEVICE connected
+09-12 17:09:21.722   664   812 D BluetoothAdapter: A2DP connected
+09-12 17:09:21.722   664   664 I AS.BtHelper: BT profile service: connecting A2DP profile
+09-12 17:09:21.722   664   863 I AS.BtHelper: BT profile A2DP connected to proxy android.bluetooth.BluetoothA2dp@152b03f
+09-12 17:09:21.722   664   863 D BluetoothAdapter: getActiveDevices(A2DP)
+09-12 17:09:21.722   664   812 E BluetoothAdapter: Failed to retrieve a binder for A2DP_SINK
+09-12 17:09:21.722   664   812 D BluetoothAdapter: HEARING_AID connected
+09-12 17:09:21.723   664   664 I AS.BtHelper: BT profile service: connecting HEARING_AID profile
+09-12 17:09:21.723   664   812 D BluetoothAdapter: HEARING_AID connected
+09-12 17:09:21.724   664   664 I Telecom : BluetoothDeviceManager: Got BluetoothHearingAid: android.bluetooth.BluetoothHearingAid@9d48485: BPSL.oSC@ARc
+09-12 17:09:21.724  7111  7111 E MediaBrowser: onConnectFailed for ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.libraries.assistant.auto.tng.media.mediabrowser.NewsMediaBrowserService}
+09-12 17:09:21.724   664   812 E BluetoothAdapter: Failed to retrieve a binder for LE_AUDIO
+09-12 17:09:21.724  7111  7123 I AdapterProperties: getBondedDevices: length=0
+09-12 17:09:21.724   664   812 D BluetoothAdapter: HEADSET connected
+09-12 17:09:21.724  7111  7192 I BluetoothAdapterService: getActiveDevices: A2dp device: null
+09-12 17:09:21.725   664   863 I AS.BtHelper: BT profile HEARING_AID connected to proxy android.bluetooth.BluetoothHearingAid@2aa4655
+09-12 17:09:21.725   664   863 D BluetoothAdapter: getActiveDevices(HEARING_AID)
+09-12 17:09:21.725   664   812 D BluetoothAdapter: HEARING_AID connected
+09-12 17:09:21.725   664   664 I Telecom : BluetoothDeviceManager: Got BluetoothHeadset: android.bluetooth.BluetoothHeadset@d1305fc: BPSL.oSC@ARg
+09-12 17:09:21.726  7111  7125 I BluetoothAdapterService: getActiveDevices: Hearing Aid devices: Left[null] - Right[null]
+09-12 17:09:21.727   664   812 E BluetoothAdapter: Failed to retrieve a binder for LE_AUDIO
+09-12 17:09:21.728   952   952 D PowerNotificationWarningsGoogleImpl: onReceive: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.728   952   952 D PulsarController: dispatchIntent: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.729   952   952 D IncompatibleChargerNotification: dispatchIntent: android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:21.729   664   812 D BluetoothAdapter: A2DP connected
+09-12 17:09:21.729  1270  1280 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.730  7111  7111 W BrowsedPlayerWrapper: onConnectionFailed: Connection Failed with com.google.android.googlequicksearchbox
+09-12 17:09:21.730  7111  7111 I BrowsedPlayerWrapper: onConnected: com.google.android.bluetooth is connected
+09-12 17:09:21.730  7111  7111 I BrowsedPlayerWrapper: onConnected: com.google.android.bluetooth is connected
+09-12 17:09:21.730   664  2171 W BluetoothSystemServer: BluetoothServiceBinder: getAddress(): Client does not have LOCAL_MAC_ADDRESS permission
+09-12 17:09:21.731  1164  1164 D BluetoothMap: getConnectedDevices()
+09-12 17:09:21.733  1066  1194 D BluetoothAdapter: onBluetoothOn
+09-12 17:09:21.734  7111  7111 I BluetoothSocketManagerBinder: createSocketChannel: type=1, serviceName=null, uuid=00000000-0000-0000-0000-000000000000, port=-2, from uid/pid=1002/7111
+09-12 17:09:21.734   952   952 D BluetoothMap: getConnectedDevices()
+09-12 17:09:21.734  7111  7111 I bt_btif_sock: system/btif/src/btif_sock.cc:173 btsock_listen: Attempting listen for socket connections for device: 00:00:00:00:00:00, type: 1, channel: -2, app_uid: 1002, data_path: 0, hub_id: 0, endpoint_id: 0, max_rx_packet_size: 0
+09-12 17:09:21.734  7111  7111 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:401 btsock_rfc_listen: Adding listening socket service_name: (nullptr) - channel: -2
+09-12 17:09:21.734  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:1011 jv_dm_cback: handling event:BTA_JV_GET_SCN_EVT, slot_id:3
+09-12 17:09:21.734  7111  7150 W rfcomm_port_utils: system/stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+09-12 17:09:21.734  7111  7150 I bt_port_api: system/stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=6, is_server=true, mtu=990, uuid=0x0, dlci=12, signal_state=0xb, p_port=0x739d4f9bb0b8
+09-12 17:09:21.734  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:963 rfcomm_cback: handling BTA_JV_RFCOMM_START_EVT, slot_id:3
+09-12 17:09:21.734  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:651 on_srv_rfc_listen_started: listening for RFCOMM socket connections for device: 00:00:00:00:00:00, scn: 6, app_uid: 1002, id: 3
+09-12 17:09:21.735  1066  1194 D BluetoothAdapter: HEADSET connected
+09-12 17:09:21.735   664  2172 W BluetoothSystemServer: BluetoothServiceBinder: getAddress(): Client does not have LOCAL_MAC_ADDRESS permission
+09-12 17:09:21.736  1578  1578 I fiis    : (REDACTED) O received %s
+09-12 17:09:21.736  1578  1809 I ugh     : (REDACTED) %s
+09-12 17:09:21.737  7111  7111 I BluetoothSocketManagerBinder: createSocketChannel: type=3, serviceName=null, uuid=00000000-0000-0000-0000-000000000000, port=-2, from uid/pid=1002/7111
+09-12 17:09:21.737  7111  7111 I bt_btif_sock: system/btif/src/btif_sock.cc:173 btsock_listen: Attempting listen for socket connections for device: 00:00:00:00:00:00, type: 3, channel: -2, app_uid: 1002, data_path: 0, hub_id: 0, endpoint_id: 0, max_rx_packet_size: 0
+09-12 17:09:21.737  7111  7111 I bluetooth: system/btif/src/btif_sock_l2cap.cc:405 btsock_l2cap_alloc_l: Allocated l2cap socket structure socket_id:3
+09-12 17:09:21.737  7111  7150 I bt_btif_sock_rfcomm: system/btif/src/btif_sock_rfc.cc:1011 jv_dm_cback: handling event:BTA_JV_GET_PSM_EVT, slot_id:3
+09-12 17:09:21.738  7111  7150 I bt_l2cap: system/stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x1005
+09-12 17:09:21.738  7111  7150 I bluetooth: system/btif/src/btif_sock_l2cap.cc:513 on_srv_l2cap_listen_started: Listening for L2CAP connection for device: 00:00:00:00:00:00, channel: 4101, app_uid: 1002, id: 3, is_le: false
+09-12 17:09:21.738  7111  7150 I bluetooth: system/btif/src/btif_sock_l2cap.cc:431 send_app_psm_or_chan_l: Sending l2cap socket socket_id:3 channel:4101
+09-12 17:09:21.738  1578  1578 I fiis    : (REDACTED) O received %s
+09-12 17:09:21.740  1578  1854 I bcdr    : (REDACTED) isGrpcDeviceIntent: %s
+09-12 17:09:21.740  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1359 bta_dm_eir_update_uuid: EIR Adding UUID=0x1105 into extended inquiry response
+09-12 17:09:21.740  7111  7150 I bt_bta_dm: system/bta/dm/bta_dm_act.cc:1090 bta_dm_set_eir: Generating extended inquiry response packet EIR
+09-12 17:09:21.741  7111  7111 E MediaBrowser: onConnectFailed for ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.libraries.assistant.auto.tng.media.mediabrowser.NewsMediaBrowserService}
+09-12 17:09:21.741  1578  1928 I bmdg    : (REDACTED) starting updateConfig, reason: %s
+09-12 17:09:21.742  7111  7111 W BrowsedPlayerWrapper: onConnectionFailed: Connection Failed with com.google.android.googlequicksearchbox
+09-12 17:09:21.742  7111  7111 I AvrcpBrowsablePlayerConnector: com.google.android.googlequicksearchbox is not browsable
+09-12 17:09:21.742  7111  7111 I AvrcpBrowsablePlayerConnector: Checking root contents for com.google.android.bluetooth
+09-12 17:09:21.742  1578  1928 I bmnn    : #getEarcons
+09-12 17:09:21.743  1578  1928 I bnnl    : (REDACTED) #isBluetoothOrWiredHeadsetConnected Number of connected audio devices: %s
+09-12 17:09:21.745   664  2171 W ProcessStats: Tracking association SourceState{2800585 com.google.android.bluetooth/1002 BFgs #5048} whose proc state 4 is better than process ProcessState{25422d5 android.process.acore/10094 pkg=com.android.providers.contacts (sub)} proc state 15 (0 skipped)
+09-12 17:09:21.745  7111  7111 I AvrcpBrowsablePlayerConnector: Checking root contents for com.google.android.bluetooth
+09-12 17:09:21.745  1578  1928 I bpph    : (REDACTED) #isRobinOnlyLocale checkedLocale:%s language:%s list:%s
+09-12 17:09:21.745  7111  7111 I AvrcpBrowsablePlayerConnector: com.google.android.googlequicksearchbox is not browsable
+09-12 17:09:21.746  1808  1808 I djgl    : onDestroy()
+09-12 17:09:21.747  1578  2019 I bcdr    : (REDACTED) isGrpcDeviceIntent: %s
+09-12 17:09:21.748  1578  1930 I bteo    : OptInSetting is UNKNOWN or UNRECOGNIZED [CONTEXT ratelimit_period="10 SECONDS" skipped=3 ]
+09-12 17:09:21.749  1578  1928 I bpnr    : Manufacturer not matched [CONTEXT ratelimit_period="10 SECONDS" skipped=3 ]
+09-12 17:09:21.749  1578  1928 I bpnr    : Device not matched [CONTEXT ratelimit_period="10 SECONDS" skipped=3 ]
+09-12 17:09:21.750  1578  1928 I ccjr    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+09-12 17:09:21.750  1578  1928 I bteo    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+09-12 17:09:21.750  1578  1928 I bteo    : #getOobeStatus: BeforeOobe [CONTEXT ratelimit_period="10 SECONDS" skipped=3 ]
+09-12 17:09:21.750  1578  1930 I ccjr    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+09-12 17:09:21.750   664  2172 I MediaSessionStack: removeSession | record: com.google.android.bluetooth/BluetoothMediaBrowserService/8 (userId=0)
+09-12 17:09:21.750  1578  1930 I bteo    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+09-12 17:09:21.751   664  2172 D MediaSessionService: destroySessionLocked: record=com.google.android.bluetooth/BluetoothMediaBrowserService/8 (userId=0)
+09-12 17:09:21.751  1578  1928 I bmvl    : User not OptedIn. Skipping Eligibility Checks.
+09-12 17:09:21.751  7111  7111 I BluetoothMediaBrowserService: Service set to null
+09-12 17:09:21.751  1578  1928 I bmtt    : Robin is not eligible or not opted-in
+09-12 17:09:21.751  1578  1928 I bmtt    : Headphone voice queries disabled: HEADPHONE_VOICE_QUERIES flag not enabled
+09-12 17:09:21.751  1578  1809 I ccjr    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+09-12 17:09:21.751  1578  1809 I bteo    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+09-12 17:09:21.751  1578  1928 I bmtt    : (REDACTED) Headphone Integration status: %s
+09-12 17:09:21.751  1578  1809 I bmvl    : User not OptedIn. Skipping Eligibility Checks.
+09-12 17:09:21.752  1578  1809 I bsmc    : (REDACTED) DelegationStatus: %s
+09-12 17:09:21.752  1578  1809 I bmkm    : (REDACTED) Populated bump behaviors: %s
+09-12 17:09:21.752  1578  1809 I bmkt    : (REDACTED) Client type %s set for %s
+09-12 17:09:21.752  1578  1809 I bmkt    : (REDACTED) Client type %s set for %s
+09-12 17:09:21.752  1578  1809 I bmkt    : (REDACTED) Client type %s set for %s
+09-12 17:09:21.753  7111  7111 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+09-12 17:09:21.753   664  2172 I MediaSessionStack: addSession to bottom of stack | record: com.google.android.bluetooth/BluetoothMediaBrowserService/9 (userId=0)
+09-12 17:09:21.753  1578  1930 I bmok    : (REDACTED) FCF System FeatureName to check: %s
+09-12 17:09:21.753  1578  1930 I bmok    : (REDACTED) FCF: Device model check status : %s
+09-12 17:09:21.753  1578  1930 I bmvp    : #isGeminiDefaultSystemFeatureEnabled: false
+09-12 17:09:21.754   664  2172 D MediaSessionService: onSessionPlaybackStateChanged: record=com.google.android.bluetooth/BluetoothMediaBrowserService/9 (userId=0) playbackState=PlaybackState {state=ERROR(7), position=0, buffered position=0, speed=0.0, updated=2832594, actions=0, custom actions=[], active item id=-1, error=Bluetooth audio disconnected}
+09-12 17:09:21.754  7111  7111 I BluetoothMediaBrowserService: Service set to com.android.bluetooth.avrcpcontroller.BluetoothMediaBrowserService@e3328d8
+09-12 17:09:21.755  1578  1809 I rnp     : no assistant invocation found, returning 0.
+09-12 17:09:21.756  7111  7111 I PlayerSettingsManager: getPlayerRepeatMode: no active player
+09-12 17:09:21.756  7111  7111 I PlayerSettingsManager: getPlayerShuffleMode: no active player
+09-12 17:09:21.756  7111  7111 I PlayerSettingsManager: updateRemoteDevice: STATE_REPEAT_OFF, STATE_SHUFFLE_OFF
+09-12 17:09:21.756  7111  7111 I bluetooth: system/btif/avrcp/avrcp_service.cc:582 SendPlayerSettingsChanged: {attribute=PlayerAttribute::REPEAT : value=PlayerRepeatValue::OFF}, {attribute=PlayerAttribute::SHUFFLE : value=PlayerShuffleValue::OFF}
+09-12 17:09:21.756  1578  1854 I rnp     : no assistant invocation found, returning max duration.
+09-12 17:09:21.756  7111  7111 I PlayerSettingsManager: getPlayerRepeatMode: no active player
+09-12 17:09:21.756  7111  7111 I PlayerSettingsManager: getPlayerShuffleMode: no active player
+09-12 17:09:21.756  7111  7111 I PlayerSettingsManager: updateRemoteDevice: STATE_REPEAT_OFF, STATE_SHUFFLE_OFF
+09-12 17:09:21.756  7111  7111 I bluetooth: system/btif/avrcp/avrcp_service.cc:582 SendPlayerSettingsChanged: {attribute=PlayerAttribute::REPEAT : value=PlayerRepeatValue::OFF}, {attribute=PlayerAttribute::SHUFFLE : value=PlayerShuffleValue::OFF}
+09-12 17:09:21.756  7111  7111 I BluetoothMediaBrowserService: Browser Client Connection Request, client='com.google.android.bluetooth')
+09-12 17:09:21.756  7111  7111 I BluetoothMediaBrowserService: Browser Client Connection Request, client='com.google.android.bluetooth')
+09-12 17:09:21.756  1808  2269 W adua    : Abort, client detached.
+09-12 17:09:21.756  7111  7111 I BrowsedPlayerWrapper: onConnected: com.google.android.bluetooth is connected
+09-12 17:09:21.756  7111  7111 I BrowsedPlayerWrapper: getFolderItems: Connected to browsable player: com.google.android.bluetooth
+09-12 17:09:21.757  7111  7111 I BrowsedPlayerWrapper: onConnected: com.google.android.bluetooth is connected
+09-12 17:09:21.757  7111  7111 I BrowsedPlayerWrapper: getFolderItems: Connected to browsable player: com.google.android.bluetooth
+09-12 17:09:21.757  7111  7111 W BluetoothMediaBrowserService: getContents(id=__ROOT__): AVRCP Controller Service not ready
+09-12 17:09:21.757  7111  7111 W BluetoothMediaBrowserService: getContents(id=__ROOT__): AVRCP Controller Service not ready
+09-12 17:09:21.758  7111  7111 E BrowsedPlayerWrapper: BrowserSubscriptionCallback: Could not get folder items
+09-12 17:09:21.758  7111  7111 E BrowsedPlayerWrapper: BrowserSubscriptionCallback: Could not get folder items
+09-12 17:09:21.758  7111  7111 I AvrcpBrowsablePlayerConnector: Successfully connected to 0 browsable players.
+09-12 17:09:21.758  7111  7111 I MediaPlayerList: init: Browsable Player list size is 0
+09-12 17:09:21.758  1578  1930 I bpph    : (REDACTED) #isRobinOnlyLocale checkedLocale:%s language:%s list:%s
+09-12 17:09:21.758  1578  1930 I bmok    : (REDACTED) FCF System FeatureName to check: %s
+09-12 17:09:21.758  1578  1930 I bmok    : (REDACTED) FCF: Device model check status : %s
+09-12 17:09:21.758  7111  7111 I AvrcpBrowsablePlayerConnector: Successfully connected to 0 browsable players.
+09-12 17:09:21.758  1578  1930 I bmul    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+09-12 17:09:21.758  7111  7111 I MediaPlayerList: init: Browsable Player list size is 0
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Current Locale set to: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Assistant is currently enabled: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig InputModality is currently: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Speed Bump entry points: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Long Press Power Education entrypoints: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Robin entrypoints: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Preferred audio route type: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Earcons to be added: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Mic occupied behavior: %s
+09-12 17:09:21.759  1578  1930 I bmbg    : (REDACTED) #initialConfig Headphone voice queries and spoken notifications status: %s
+09-12 17:09:21.760  1578  1930 I bsmc    : (REDACTED) DelegationStatus: %s
+09-12 17:09:21.761   664  2171 I MediaSessionStack: removeSession | record: com.google.android.bluetooth/BluetoothMediaBrowserService/9 (userId=0)
+09-12 17:09:21.761   664  2171 D MediaSessionService: destroySessionLocked: record=com.google.android.bluetooth/BluetoothMediaBrowserService/9 (userId=0)
+09-12 17:09:21.761  7111  7111 I BluetoothMediaBrowserService: Service set to null
+09-12 17:09:21.762  7111  7111 I PlayerSettingsManager: getPlayerRepeatMode: no active player
+09-12 17:09:21.762  7111  7111 I PlayerSettingsManager: getPlayerShuffleMode: no active player
+09-12 17:09:21.762  7111  7111 I PlayerSettingsManager: updateRemoteDevice: STATE_REPEAT_OFF, STATE_SHUFFLE_OFF
+09-12 17:09:21.762  7111  7111 I bluetooth: system/btif/avrcp/avrcp_service.cc:582 SendPlayerSettingsChanged: {attribute=PlayerAttribute::REPEAT : value=PlayerRepeatValue::OFF}, {attribute=PlayerAttribute::SHUFFLE : value=PlayerShuffleValue::OFF}
+09-12 17:09:21.764  1578  1930 I bmnr    : (REDACTED) #FCF: Preferred assistant locale set %s 
+09-12 17:09:21.764  1578  1930 I bmok    : (REDACTED) FCF System FeatureName to check: %s
+09-12 17:09:21.764  1578  1928 I bmnr    : (REDACTED) #FCF: Preferred assistant locale set %s 
+09-12 17:09:21.764  1578  1930 I bmok    : (REDACTED) FCF: Device model check status : %s
+09-12 17:09:21.764  1578  1928 I bmok    : (REDACTED) FCF System FeatureName to check: %s
+09-12 17:09:21.764  1578  1930 I bmuw    : (REDACTED) #evaluate: isEnabled[ = %s failure reasons: %s
+09-12 17:09:21.764  1578  1928 I bmok    : (REDACTED) FCF: Device model check status : %s
+09-12 17:09:21.765  1578  1930 I bmuv    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+09-12 17:09:21.765  1578  1928 I bmok    : (REDACTED) FCF System FeatureName to check: %s
+09-12 17:09:21.765  1578  1928 I bmok    : (REDACTED) FCF: Device model check status : %s
+09-12 17:09:21.765  1578  1928 I bmul    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+09-12 17:09:21.765  1578  1928 I bmun    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+09-12 17:09:21.765  1578  1928 I bmur    : (REDACTED) #evaluate: isEnabled = %s failure reasons: %s
+09-12 17:09:21.766  1578  1930 I bmbg    : (REDACTED) Needs to download files: %s
+09-12 17:09:21.767  1578  1930 I bsmc    : (REDACTED) DelegationStatus: %s
+09-12 17:09:21.768  1578  1930 I ccjr    : (REDACTED) getInitialSimplifiedOobeViaDeeplinkUser: %b
+09-12 17:09:21.768  1578  1930 I bteo    : (REDACTED) isDeeplinkEnabled %s, isInitialSimplifiedOobeViaDeeplinkUser %s
+09-12 17:09:21.768  1578  1930 I bmvl    : User not OptedIn. Skipping Eligibility Checks.
+09-12 17:09:21.769  1578  1930 I bmdg    : No changes in config detected
+09-12 17:09:22.051  1270  1270 I MagicTether: (REDACTED) [TetherService] BluetoothStateChangeReceiver: %s
+09-12 17:09:22.055  1270  1270 I NearbySharing: Invalidate tile state due to state change.
+09-12 17:09:22.056  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:22.056  1270  2344 I NearbyDiscovery: (REDACTED) PureOffloadFastPairScanner: eventType=%s, isInternalReq=%s, isScanning=%s, isScanningAllowed=%s
+09-12 17:09:22.056  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:22.056  1270  3887 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:22.056  1270  2344 I NearbyDiscovery: PureOffloadFastPairScanner: Skipping stop, already stopped scanning [CONTEXT service_id=265 ]
+09-12 17:09:22.057  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+09-12 17:09:22.057  1270  2344 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:22.057  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+09-12 17:09:22.063  1270  7015 I MagicTether: [TetherService] starting runnable [CONTEXT service_id=276 ]
+09-12 17:09:22.063  1270  7015 I MagicTether: [TetherService] Starting Instant Hotspot feature. [CONTEXT service_id=276 ]
+09-12 17:09:22.063  1270  1769 I NearbySharing: Bluetooth is enabled
+09-12 17:09:22.063  1270  1769 I NearbySharing: Uwb feature is off.
+09-12 17:09:22.064  1270  1769 I NearbySharing: Stopping scanning because Nearby Sharing is disabled.
+09-12 17:09:22.065  1270  1769 I NearbySharing: Stopping Fast Init advertisement because we're not scanning in the foreground.
+09-12 17:09:22.069  1270  1769 I NearbySharing: Stopping advertising because Nearby Sharing is disabled.
+09-12 17:09:22.069  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:22.069  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:22.069  1270  1769 I NearbySharing: Stopping FastInitiation scanning because visibility is hidden.
+09-12 17:09:22.071  1270  1769 I NearbySharing: Fast Initiation Scanning has stopped
+09-12 17:09:22.073  1270  1769 I NearbySharing: Dismissing HUN as there's no device nearby.
+09-12 17:09:22.076  1270  1270 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-12 17:09:22.076  1270  7015 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.079  1270  7015 I MagicTether: (REDACTED) [HostTetherRole] enableProximityAuth: %s
+09-12 17:09:22.080  1270  1769 I NearbySharing: Broadcasting NearbySharing state change.
+09-12 17:09:22.081  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:22.088  1270  1270 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+09-12 17:09:22.090  1270  3887 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:22.093  1270  1270 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-12 17:09:22.094  1270  7126 I ProximityAuth: [PhoneHubService] Bluetooth state has changed. Calling startService.
+09-12 17:09:22.096   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:09:22.097  1270  7015 W MagicTether: [HostEnablementUtils] Invalid account list. [CONTEXT service_id=276 ]
+09-12 17:09:22.098  1270  7126 I Nearby  : (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+09-12 17:09:22.100  1270  7139 I NearbyMediums: ModuleInitializer handles incoming intent android.bluetooth.adapter.action.STATE_CHANGED
+09-12 17:09:22.108  1270  1270 I ProximityAuth: [PhoneHubService] Handling intent for PhoneHubChimeraService.
+09-12 17:09:22.110  1270  1270 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s
+09-12 17:09:22.110  1270  1270 I NearbyDiscovery: (REDACTED) FastPair: onAdapterStateChange: state=%s
+09-12 17:09:22.111  1270  3887 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate start [CONTEXT service_id=265 ]
+09-12 17:09:22.111  1270  1270 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.onboardingconsent.api.ConsentManagerApiService.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+09-12 17:09:22.112  1270  7134 I ProximityAuth: [PhoneHubService] No enabled account, stopping service
+09-12 17:09:22.113  1270  3887 I NearbyFastPair: DynamicSupportModule: onSupportStateUpdate end [CONTEXT service_id=265 ]
+09-12 17:09:22.113  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+09-12 17:09:22.114  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: Start scanning internally, %s
+09-12 17:09:22.114  1270  2344 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:22.114  1270  1270 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s
+09-12 17:09:22.114  1270  1355 I ConsentManagerApiServic: (REDACTED) ConsentManagerApiService onGetService success %s
+09-12 17:09:22.114  1270  1270 I ProximityAuth: [PhoneHubService] Destroying PhoneHubChimeraService.
+09-12 17:09:22.114  1270  1270 W ProximityAuth: [PhoneHubNotificationProcessor] shutdown(): context is null.
+09-12 17:09:22.114  1270  1270 I ProximityAuth: [PhoneHubService] All devices have disconnected. Performing cleanup...
+09-12 17:09:22.115  1270  1270 W ChimeraUtils: Module com.google.android.gms.auth_proximity missing resource null(0)
+09-12 17:09:22.118  1270  7134 I Nearby  : (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+09-12 17:09:22.119  1270  7135 W EasyUnlock: [HostValidator] Invalid account list. [CONTEXT service_id=234 ]
+09-12 17:09:22.120  1270  7015 I MagicTether: [TetherService] Registering Tidepool update listener [CONTEXT service_id=276 ]
+09-12 17:09:22.121  7111  7123 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:135 RegisterScanner: in shim layer, UUID=e9c2117a-d31f-4a9c-815e-614459ff9d86
+09-12 17:09:22.122  1270  7015 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.122  1270  7015 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.123  1270  1355 I Multidevice: (REDACTED) [FeatureSettingsApiService] registerXdFeatureStatusListener(featureKeys: %s, enableImmediateCallback: %s)
+09-12 17:09:22.123  1270  1270 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.123  1270  1423 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+09-12 17:09:22.124  1270  1270 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.127  1270  1270 I MagicTether: [TidepoolFeatureStatusManager] Successfully registered TidepoolListener [CONTEXT service_id=276 ]
+09-12 17:09:22.127  1270  1270 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.127  1270  1270 I MagicTether: (REDACTED) [TidepoolFeatureStatusManager] onFeatureStatusChanged: INTERNET_SHARING_HOTSPOT=%s
+09-12 17:09:22.128  1270  7138 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.128  1270  7138 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.128  1270  1270 I MagicTether: (REDACTED) [TetherService] TidepoolUpdateListener#onInstantHotspotUpdate isInstantHotspotEnabled=%s
+09-12 17:09:22.130  1270  7015 I MagicTether: [TetherService] starting runnable [CONTEXT service_id=276 ]
+09-12 17:09:22.130  1270  7015 I MagicTether: [TetherService] Starting Instant Hotspot feature. [CONTEXT service_id=276 ]
+09-12 17:09:22.130  1270  7015 I MagicTether: (REDACTED) [HostTetherRole] enableProximityAuth: %s
+09-12 17:09:22.133  1270  7015 W MagicTether: [HostEnablementUtils] Invalid account list. [CONTEXT service_id=276 ]
+09-12 17:09:22.134  1270  7138 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.134  1270  7138 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.135  1270  7015 I MagicTether: (REDACTED) [TidepoolFeatureStatusManager] isInstantHotspotEnabled=%s
+09-12 17:09:22.136  1270  7015 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.136  1270  7015 I MagicTether: [TetherService] Stopping Nearby component. [CONTEXT service_id=276 ]
+09-12 17:09:22.136  1270  7015 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.136  1270  7015 I MagicTether: [HostTetherRole] Nearby host role already stopped [CONTEXT service_id=276 ]
+09-12 17:09:22.137  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: Start scanning, mode=%s
+09-12 17:09:22.137  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:22.137  1270  2344 I NearbyDiscovery: (REDACTED) PureOffloadFastPairScanner: eventType=%s, isInternalReq=%s, isScanning=%s, isScanningAllowed=%s
+09-12 17:09:22.138  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+09-12 17:09:22.138  1270  2344 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:22.138  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+09-12 17:09:22.138  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: Stopping scan, %s
+09-12 17:09:22.138  1270  2344 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:22.138  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:236 ScanFilterEnable: in shim layer
+09-12 17:09:22.139  1270  7015 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.139  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:213 ScanFilterAdd: in shim layer
+09-12 17:09:22.139  1270  7015 I MagicTether: [TetherService] Stopping Nearby client role [CONTEXT service_id=276 ]
+09-12 17:09:22.139  1270  7015 I MagicTether: [ClientTetherRole] Client role already stopped [CONTEXT service_id=276 ]
+09-12 17:09:22.140  1270  1270 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.143  1270  1270 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.145  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:180 ScanFilterParamSetup: in shim layer, clientIf=1
+09-12 17:09:22.145  7111  7125 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:141 Unregister: in shim layer, scannerId=1
+09-12 17:09:22.145  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:213 ScanFilterAdd: in shim layer
+09-12 17:09:22.145  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:180 ScanFilterParamSetup: in shim layer, clientIf=1
+09-12 17:09:22.145  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: StartScanning with stop current scanning in %s
+09-12 17:09:22.145  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer started
+09-12 17:09:22.145  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+09-12 17:09:22.145  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: Start scanning internally, %s
+09-12 17:09:22.146  1270  2344 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:22.146  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer stopped
+09-12 17:09:22.146  7111  7170 W ScanManager: There is no scan radio to stop
+09-12 17:09:22.146  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:311 SetScanParameters: in shim layer, scannerId1m=1, scannerIdCoded=0
+09-12 17:09:22.146  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer started
+09-12 17:09:22.146  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer stopped
+09-12 17:09:22.146  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:601 stop_scan: Scanning already stopped, return!
+09-12 17:09:22.146  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:576 GetNextPrivateAddressIntervalRange: client=LeAddressManager, nonwake=7m30s, wake=14m54s
+09-12 17:09:22.146  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:259 register_client: Scheduled address rotation for first client registered
+09-12 17:09:22.146  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:263 register_client: Client registered
+09-12 17:09:22.146  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:1380 on_advertising_filter_complete: Got a Command complete LE_ADV_FILTER(0xfd57), status UNKNOWN_CONNECTION(0x02)
+09-12 17:09:22.146  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:180 ScanFilterParamSetup: in shim layer, clientIf=1
+09-12 17:09:22.148  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:278 unregister_client: Client unregistered
+09-12 17:09:22.148  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:293 unregister_client: Cancelled address rotation alarm
+09-12 17:09:22.148  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:601 stop_scan: Scanning already stopped, return!
+09-12 17:09:22.148  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:576 GetNextPrivateAddressIntervalRange: client=LeAddressManager, nonwake=8m40s, wake=13m55s
+09-12 17:09:22.148  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:259 register_client: Scheduled address rotation for first client registered
+09-12 17:09:22.148  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:263 register_client: Client registered
+09-12 17:09:22.148  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:278 unregister_client: Client unregistered
+09-12 17:09:22.148  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:293 unregister_client: Cancelled address rotation alarm
+09-12 17:09:22.148  7111  7161 E ScannerMap: Context not found for ID 1
+09-12 17:09:22.149  7111  7161 E ScanController: Advertise app or callback is null
+09-12 17:09:22.149  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:180 ScanFilterParamSetup: in shim layer, clientIf=1
+09-12 17:09:22.149  7111  7125 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:135 RegisterScanner: in shim layer, UUID=6cc4cce2-9871-4e81-96b3-91efd437247b
+09-12 17:09:22.150  1270  1270 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.151  1270  3970 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+09-12 17:09:22.152  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:1380 on_advertising_filter_complete: Got a Command complete LE_ADV_FILTER(0xfd57), status UNKNOWN_CONNECTION(0x02)
+09-12 17:09:22.153  1270  1270 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.158  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:236 ScanFilterEnable: in shim layer
+09-12 17:09:22.159  1270  2344 I NearbyDiscovery: (REDACTED) ApFastPairScanner: Start scanning, mode=%s
+09-12 17:09:22.160  1270  2344 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+09-12 17:09:22.160  1270  2344 I Nearby  : (REDACTED) is blocked device type %s, isAuto=%s, isIot=%s, isLatchsky=%s, isChinaWearable=%s, isTv=%s, isWearable=%s (supportWearOs=%s), isChromeOsDevice=%s (supportChromeOs=%s)
+09-12 17:09:22.158  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:213 ScanFilterAdd: in shim layer
+09-12 17:09:22.160  1270  2344 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+09-12 17:09:22.160  1270  2344 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+09-12 17:09:22.160  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:180 ScanFilterParamSetup: in shim layer, clientIf=1
+09-12 17:09:22.161  1270  7139 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.161  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:213 ScanFilterAdd: in shim layer
+09-12 17:09:22.162  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:180 ScanFilterParamSetup: in shim layer, clientIf=1
+09-12 17:09:22.162  1270  7139 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.162  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer started
+09-12 17:09:22.162  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:601 stop_scan: Scanning already stopped, return!
+09-12 17:09:22.162  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:576 GetNextPrivateAddressIntervalRange: client=LeAddressManager, nonwake=8m21s, wake=13m37s
+09-12 17:09:22.162  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:259 register_client: Scheduled address rotation for first client registered
+09-12 17:09:22.162  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:263 register_client: Client registered
+09-12 17:09:22.165  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer stopped
+09-12 17:09:22.165  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:278 unregister_client: Client unregistered
+09-12 17:09:22.165  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:293 unregister_client: Cancelled address rotation alarm
+09-12 17:09:22.165  7111  7170 W ScanManager: There is no scan radio to stop
+09-12 17:09:22.165  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:311 SetScanParameters: in shim layer, scannerId1m=1, scannerIdCoded=0
+09-12 17:09:22.165  7111  7170 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:147 Scan: in shim layer started
+09-12 17:09:22.165  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:601 stop_scan: Scanning already stopped, return!
+09-12 17:09:22.165  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:576 GetNextPrivateAddressIntervalRange: client=LeAddressManager, nonwake=8m56s, wake=14m0s
+09-12 17:09:22.165  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:259 register_client: Scheduled address rotation for first client registered
+09-12 17:09:22.165  7111  7155 I bluetooth: system/gd/hci/le_address_manager.cc:263 register_client: Client registered
+09-12 17:09:22.169  1270  7139 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.169  1270  7139 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.172  1270  7139 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.172  1270  7139 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.176  1270  7139 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.177  1270  7139 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.189  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:1380 on_advertising_filter_complete: Got a Command complete LE_ADV_FILTER(0xfd57), status UNKNOWN_CONNECTION(0x02)
+09-12 17:09:22.194  7111  7155 I bluetooth: system/gd/hci/le_scanning_manager.cc:1380 on_advertising_filter_complete: Got a Command complete LE_ADV_FILTER(0xfd57), status UNKNOWN_CONNECTION(0x02)
+09-12 17:09:22.200  1270  1270 I NearbyPresence: (REDACTED) %s: BLE ON
+09-12 17:09:22.201  1270  1270 I MagicTether: (REDACTED) [TetherService] BluetoothStateChangeReceiver: %s
+09-12 17:09:22.202  1270  3887 I NearbyPresence: (REDACTED) %s verified [!=] new request %s does not equal to the old request %s
+09-12 17:09:22.202  1270  3887 I NearbyPresence: (REDACTED) %s verified [==] new request %s equals to the old request
+09-12 17:09:22.202  1270  1769 W NearbyMediums: [BLUETOOTH_RADIO] State was changed outside of our control. Updating the snapshot to match current radio state.
+09-12 17:09:22.206  1270  1270 I NearbySharing: Invalidate tile state due to state change.
+09-12 17:09:22.207  1270  1769 I NearbySharing: There is no account metadata, return default instance.
+09-12 17:09:22.208  1270  7134 I MagicTether: [TetherService] starting runnable [CONTEXT service_id=276 ]
+09-12 17:09:22.209  1270  7134 I MagicTether: [TetherService] Starting Instant Hotspot feature. [CONTEXT service_id=276 ]
+09-12 17:09:22.209  1270  7134 I MagicTether: (REDACTED) [HostTetherRole] enableProximityAuth: %s
+09-12 17:09:22.210  1270  7134 W MagicTether: [HostEnablementUtils] Invalid account list. [CONTEXT service_id=276 ]
+09-12 17:09:22.213  1270  7134 I MagicTether: (REDACTED) [TidepoolFeatureStatusManager] isInstantHotspotEnabled=%s
+09-12 17:09:22.213  1270  7134 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.213  1270  7134 I MagicTether: [TetherService] Stopping Nearby component. [CONTEXT service_id=276 ]
+09-12 17:09:22.214  1270  7134 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.214  1270  7134 I MagicTether: [HostTetherRole] Nearby host role already stopped [CONTEXT service_id=276 ]
+09-12 17:09:22.218  1270  7134 I MagicTether: [LaunchUtils] No accounts found for enabling Instant Wifi. [CONTEXT service_id=276 ]
+09-12 17:09:22.218  1270  7134 I MagicTether: [TetherService] Stopping Nearby client role [CONTEXT service_id=276 ]
+09-12 17:09:22.218  1270  7134 I MagicTether: [ClientTetherRole] Client role already stopped [CONTEXT service_id=276 ]
+09-12 17:09:22.220  1270  1270 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.221  1270  1270 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.228  1270  1270 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.230  1270  1270 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.235  1270  7139 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.235  1270  7139 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.238  1270  7139 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.238  1270  7139 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.242  1270  7139 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.242  1270  7139 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.247  1270  7139 I MagicTether: [AutoDisconnectIntentOperation] Canceling task. [CONTEXT service_id=276 ]
+09-12 17:09:22.248  1270  7139 I MagicTether: (REDACTED) [NotificationPresenter] cancelNotification: %d
+09-12 17:09:22.930  1270  7015 D BluetoothAdapter: isLeEnabled(): ON
+09-12 17:09:26.110  1578  2019 I bdee    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+09-12 17:09:29.936  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:09:31.666   245  7147 I keystore2: system/security/keystore2/watchdog/src/lib.rs:377 - Watchdog thread idle -> terminating. Have a great day.
+09-12 17:09:37.104  1270  1270 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-12 17:09:37.120  1270  1270 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.onboardingconsent.api.ConsentManagerApiService.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+09-12 17:09:37.214  1270  1270 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-12 17:09:39.939  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:09:40.955  7111  7120 W System  : A resource failed to call close. 
+09-12 17:09:40.955  7111  7120 W System  : A resource failed to call close. 
+09-12 17:09:41.732   664   800 D ActivityManager: freezing 1164 com.android.settings
+09-12 17:09:41.736   664   800 D ActivityManager: freezing 1723 com.android.keychain
+09-12 17:09:41.737   664   800 D ActivityManager: freezing 2575 com.android.dynsystem:dynsystem
+09-12 17:09:41.738   664   800 D ActivityManager: freezing 2516 com.android.dynsystem
+09-12 17:09:41.739   664   800 D ActivityManager: freezing 2113 com.android.localtransport
+09-12 17:09:41.741   664   800 D ActivityManager: freezing 1808 com.google.android.googlequicksearchbox:search
+09-12 17:09:42.202   664   800 D ActivityManager: freezing 2724 com.google.android.gms.unstable
+09-12 17:09:42.209   664   800 D ActivityManager: freezing 3394 com.google.android.gms.ui
+09-12 17:09:47.094  1270  1270 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+09-12 17:09:49.937  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+09-12 17:09:51.184  1270  1270 I NearbySharing: SharingTileService destroyed
+09-12 17:09:57.792   664   800 D ActivityManager: freezing 1738 android.process.acore
+09-12 17:09:57.801   664   850 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-12 17:09:57.802   664   850 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-12 17:09:57.803   664   850 D InetDiagMessage: Destroyed live tcp sockets for uids={10094} in 5ms
+09-12 17:09:59.942  1066  1254 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled

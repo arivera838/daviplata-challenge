@@ -1,0 +1,48 @@
+@startuml
+!theme plain
+skinparam componentStyle rectangle
+
+package "React Native Layer (UI)" {
+  [LoginBundle] as LB
+  [HomeBundle] as HB
+  [TransferBundle] as TB
+  [MovementsBundle] as MB
+  
+  [NativeBridge.ts\n(API de Eventos)] as NBridge
+  [cryptoUtils.ts\n(Cifrado de Payloads)] as CryptoJS
+}
+
+package "Native Bridge" {
+  [SecurityBridgeModule.kt\n(Despacho & Validación)] as SBM
+}
+
+package "Android Native Layer (Core)" {
+  [MainActivity.kt\n(Host y Gestor de Intents)] as MA
+  [SecurityCheckUtil.kt\n(Detección Root/Emulador)] as SCU
+  
+  [CryptoUtil.kt\n(AES-256-GCM)] as CryptoNative
+  [SessionManager.kt\n(TTL y Control de Acceso)] as Session
+  
+  database "EncryptedSharedPreferences\n(Android Keystore)" as Keystore
+}
+
+' Relaciones en la capa React Native
+LB ..> NBridge : Usa sendEvent()
+HB ..> NBridge : Usa sendEvent()
+TB ..> NBridge : Usa sendEvent()
+MB ..> NBridge : Usa sendEvent()
+
+NBridge ..> CryptoJS : Encripta datos
+
+' Puente de comunicación cruzada
+NBridge =down=> SBM : "Envía Eventos Nativos Cifrados"
+
+' Relaciones en la capa Nativa
+SBM -right-> CryptoNative : "Descifra/Cifra Datos"
+SBM --> Session : "Consulta/Actualiza Sesión"
+Session -right-> Keystore : "Persistencia Segura"
+
+SBM -down-> MA : "Lanza Intents\n(Monta nuevo Bundle)"
+SCU -down-> MA : "Bloquea/Permite acceso"
+
+@enduml

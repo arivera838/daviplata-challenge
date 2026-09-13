@@ -1,0 +1,233 @@
+--------- beginning of system
+09-12 17:10:22.847   664  1630 W ActivityTaskManager: callingPackage for (uid=2000, pid=7214) has no WPC
+--------- beginning of main
+09-12 17:10:22.854   664  1630 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@945fe579 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-12 17:10:22.855   664  1630 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+09-12 17:10:22.855   664  1630 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+09-12 17:10:22.855   664  1630 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+09-12 17:10:22.855   664  1630 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+09-12 17:10:22.864   664  1630 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+09-12 17:10:22.871   497   586 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-12 17:10:22.880   664  1630 I ActivityTaskManager: START u0 {flg=0x10000000 xflg=0x5 cmp=com.rnapp/.SplashActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+09-12 17:10:22.882   952  1090 V WindowManagerShell: Transition requested (#102): android.os.BinderProxy@cd16dfe TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=41 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.rnapp/.SplashActivity } baseActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} topActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} origActivity=null realActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} numActivities=1 lastActiveTime=2893718 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@523695f} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 151 - 0, 0) topActivityInfo=ActivityInfo{8a8ffac com.rnapp.SplashActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 102 }
+09-12 17:10:22.890   952  1090 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+09-12 17:10:22.917   664   724 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@945fe579 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-12 17:10:22.922   497   497 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-12 17:10:22.931   952  1143 W HWUI    : Image decoding logging dropped!
+09-12 17:10:22.937   542   542 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:22.937   542   542 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:22.944  1070  1070 W SplitSelectStateCtor: Missing session instanceIds
+09-12 17:10:22.944  1070  1070 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+09-12 17:10:22.974   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:22.993   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.001   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.001   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.001   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.002   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.002   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.002   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.002   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.002   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.002   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.002   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.012   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.012   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.012   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.013   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.013   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.013   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.013   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.013   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.013   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.013   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.014   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.014   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.014   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.014   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.014   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.014   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.014   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.015   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.021   448   448 D Zygote  : Forked child process 7217
+09-12 17:10:23.022   664   731 W ActivityManager: Slow operation: 104ms so far, now at startProcess: returned from zygote!
+09-12 17:10:23.038   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.038   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.039   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.039   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.039   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.039   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.039   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.039   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.039   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.046   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.046   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.046   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.046   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.046   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.046   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.046   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.047   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.047   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.047   664   724 W IPCThreadState: Sending oneway calls to frozen process.
+09-12 17:10:23.067   497   497 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#821 parentId=228} producedId=28 frameNumber=68 -> producedId=28 frameNumber=34
+09-12 17:10:23.097   664   731 W ActivityManager: Slow operation: 180ms so far, now at startProcess: done updating battery stats
+09-12 17:10:23.097   664   731 W ActivityManager: Slow operation: 180ms so far, now at startProcess: building log message
+09-12 17:10:23.097   664   731 I ActivityManager: Start proc 7217:com.rnapp/u0a216 for next-top-activity {com.rnapp/com.rnapp.SplashActivity}
+09-12 17:10:23.097   664   731 W ActivityManager: Slow operation: 180ms so far, now at startProcess: starting to update pids map
+09-12 17:10:23.098   497   497 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#821 parentId=228} producedId=28 frameNumber=68 -> producedId=28 frameNumber=35
+09-12 17:10:23.098   664   731 I ActivityManager: ProcessObserver broadcast disabled
+09-12 17:10:23.098   664   731 W ActivityManager: Slow operation: 180ms so far, now at startProcess: done updating pids map
+09-12 17:10:23.104   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:23.104   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:23.104   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:23.104   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:23.121   952  1162 V WindowManagerShell: onTransitionReady(transaction=2851858287967)
+09-12 17:10:23.121  7217  7217 I com.rnapp: Late-enabling -Xcheck:jni
+09-12 17:10:23.125   664   721 V WindowManager: Sent Transition (#102) createdAt=09-12 17:10:22.855 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=41 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.rnapp/.SplashActivity } baseActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} topActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} origActivity=null realActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} numActivities=1 lastActiveTime=2893718 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{1f1ea12 Task{e3f09f3 #41 type=standard A=10216:com.rnapp}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 151 - 0, 0) topActivityInfo=ActivityInfo{53e55e3 com.rnapp.SplashActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 102 }
+09-12 17:10:23.126   664   721 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+09-12 17:10:23.126   664   721 V WindowManager:     info={id=102 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-12 17:10:23.126   664   721 V WindowManager:         {WCT{RemoteToken{1f1ea12 Task{e3f09f3 #41 type=standard A=10216:com.rnapp}}} m=OPEN f=NONE leash=Surface(name=Task=41)/@0xe716bc8 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 taskParent=-1},
+09-12 17:10:23.126   664   721 V WindowManager:         {WCT{RemoteToken{30dfdd1 Task{8d3ef66 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x7aae247 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 taskParent=-1},
+09-12 17:10:23.126   664   721 V WindowManager:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{6f7df56 showWhenLocked=false})/@0x7e91986 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0}
+09-12 17:10:23.126   664   721 V WindowManager:     ]}
+09-12 17:10:23.136   952  1090 V WindowManagerShell: onTransitionReady (#102) android.os.BinderProxy@cd16dfe: {id=102 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-12 17:10:23.136   952  1090 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=41)/@0x61a4b9d sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 taskParent=-1},
+09-12 17:10:23.136   952  1090 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x4aa3812 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 taskParent=-1},
+09-12 17:10:23.136   952  1090 V WindowManagerShell:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{6f7df56 showWhenLocked=false})/@0x97b8be3 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0}
+09-12 17:10:23.136   952  1090 V WindowManagerShell:     ]}
+09-12 17:10:23.137   952  1090 V WindowManagerShell: Playing animation for (#102) android.os.BinderProxy@cd16dfe@0
+09-12 17:10:23.138   952  1090 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+09-12 17:10:23.138   952  1090 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=102 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=41)/@0x61a4b9d sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x4aa3812 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 taskParent=-1},{m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{6f7df56 showWhenLocked=false})/@0x97b8be3 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0}]}
+09-12 17:10:23.138   952  1090 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@c4fa5ce windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@dc28cef, appThread = android.app.IApplicationThread$Stub$Proxy@2a103fc, debugName = overlayBackTransition }}
+09-12 17:10:23.138   952  1090 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@eadaa85, appThread = android.app.IApplicationThread$Stub$Proxy@1c450da, debugName = LauncherToDream }}
+09-12 17:10:23.138   952  1090 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@3d5090b, appThread = android.app.IApplicationThread$Stub$Proxy@3f863e8, debugName = QuickstepLaunchHome }}
+09-12 17:10:23.138   952  1090 V WindowManagerShell:  Delegate animation for (#102) to null
+09-12 17:10:23.138   952  1090 V WindowManagerShell: start default transition animation, info = {id=102 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=41)/@0x61a4b9d sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x4aa3812 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 taskParent=-1},{m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{6f7df56 showWhenLocked=false})/@0x97b8be3 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0}]}
+09-12 17:10:23.139   952  1090 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@3efc35e animAttr=0x13 type=OPEN isEntrance=false
+09-12 17:10:23.140   952  1090 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@351033f animAttr=0x12 type=OPEN isEntrance=true
+09-12 17:10:23.144   497   497 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#821 parentId=228} producedId=28 frameNumber=68 -> producedId=28 frameNumber=36
+09-12 17:10:23.145   952  1090 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@ea6a78c
+09-12 17:10:23.163   497   497 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#821 parentId=228} producedId=28 frameNumber=68 -> producedId=28 frameNumber=37
+09-12 17:10:23.177   497   497 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#821 parentId=228} producedId=28 frameNumber=68 -> producedId=28 frameNumber=38
+09-12 17:10:23.245  7217  7217 I com.rnapp: Using CollectorTypeCMC GC.
+09-12 17:10:23.266   499   550 I adbd    : jdwp connection from 7217
+09-12 17:10:23.281  7217  7217 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-12 17:10:23.323   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:23.438  7217  7217 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-12 17:10:23.438  7217  7217 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-12 17:10:23.444   952  1090 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#102) android.os.BinderProxy@cd16dfe@0
+09-12 17:10:23.447   664   721 V WindowManager: Finish Transition (#102): created at 09-12 17:10:22.855 collect-started=0.086ms request-sent=22.698ms started=49.244ms ready=261.238ms sent=263.467ms commit=26.374ms finished=590.826ms
+09-12 17:10:23.450  1070  1070 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+09-12 17:10:23.453   952  1090 V WindowManagerShell: Track 0 became idle
+09-12 17:10:23.453   952  1090 V WindowManagerShell: All active transition animations finished
+09-12 17:10:23.462  1070  1070 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+09-12 17:10:24.152  7217  7217 D nativeloader: Configuring clns-9 for other apk /data/app/~~TWM2BV9iV-ob7JaW7n8cGg==/com.rnapp-FT4rjwDV4dzTe2cpfG3eog==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~TWM2BV9iV-ob7JaW7n8cGg==/com.rnapp-FT4rjwDV4dzTe2cpfG3eog==/lib/arm64:/data/app/~~TWM2BV9iV-ob7JaW7n8cGg==/com.rnapp-FT4rjwDV4dzTe2cpfG3eog==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.rnapp
+09-12 17:10:24.169  7217  7217 I com.rnapp: AssetManager2(0xb400739eef1fbb98) locale list changing from [] to [en-US]
+09-12 17:10:24.184  7217  7217 V GraphicsEnvironment: Currently set values for:
+09-12 17:10:24.185  7217  7217 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-12 17:10:24.185  7217  7217 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-12 17:10:24.185  7217  7217 V GraphicsEnvironment: com.rnapp is not listed in per-application setting
+09-12 17:10:24.185  7217  7217 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+09-12 17:10:24.186  7217  7217 V GraphicsEnvironment: com.rnapp is not listed in ANGLE allowlist or settings, returning default
+09-12 17:10:24.186  7217  7217 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-12 17:10:24.256  7217  7217 W SoLoader: Initializing SoLoader: 0
+09-12 17:10:24.256  7217  7217 W SoLoader: SoLoader initialized: 0
+09-12 17:10:24.264   664  1965 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+09-12 17:10:24.270   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:24.270   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:24.274  7217  7232 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+09-12 17:10:24.282  7217  7217 I com.rnapp: AssetManager2(0xb400739eef201f98) locale list changing from [] to [en-US]
+09-12 17:10:24.337  7217  7217 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-12 17:10:24.339  7217  7217 I com.rnapp: AssetManager2(0xb400739eef205af8) locale list changing from [] to [en-US]
+09-12 17:10:24.365  7217  7217 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+09-12 17:10:24.372  7217  7232 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+09-12 17:10:24.373  7217  7232 I EGL_emulation: Opening libGLESv2_emulation.so
+09-12 17:10:24.423  7217  7232 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-12 17:10:24.424  7217  7232 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-12 17:10:24.787   664  1965 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@945fe579 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-12 17:10:24.788   664  1965 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+09-12 17:10:24.788   664  1965 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+09-12 17:10:24.788   664  1965 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+09-12 17:10:24.788   664  1965 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+09-12 17:10:24.790   664  1965 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+09-12 17:10:24.801   952  1090 V WindowManagerShell: Transition requested (#103): android.os.BinderProxy@8114f8 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=41 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.rnapp/.SplashActivity } baseActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} topActivity=ComponentInfo{com.rnapp/com.rnapp.MainActivity} origActivity=null realActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} numActivities=2 lastActiveTime=2895639 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@b29add1} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{45ae036 com.rnapp.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 103 }
+09-12 17:10:24.802   952  1090 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+09-12 17:10:24.803   664  1965 I ActivityTaskManager: START u0 {xflg=0x4 cmp=com.rnapp/.MainActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 10216 (sr=68396130) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+09-12 17:10:24.805   497  1068 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-12 17:10:24.812   497   497 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-12 17:10:24.854  7217  7217 D CompatChangeReporter: Compat change id reported: 377864165; UID 10216; state: ENABLED
+09-12 17:10:24.858  7217  7217 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+09-12 17:10:24.929   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:24.931   664   767 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+09-12 17:10:24.934   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:24.936   664   900 D BackgroundInstallControlService: Package event received: 0
+09-12 17:10:24.937   664   721 V WindowManager: Sent Transition (#103) createdAt=09-12 17:10:24.788 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=41 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.rnapp/.SplashActivity } baseActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} topActivity=ComponentInfo{com.rnapp/com.rnapp.MainActivity} origActivity=null realActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} numActivities=2 lastActiveTime=2895639 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{1f1ea12 Task{e3f09f3 #41 type=standard A=10216:com.rnapp}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{fbeea3c com.rnapp.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 103 }
+09-12 17:10:24.937   664   721 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+09-12 17:10:24.937   664   721 V WindowManager:     info={id=103 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-12 17:10:24.937   664   721 V WindowManager:         {m=OPEN f=STARTING_WINDOW_TRANSFER|FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{250529079 u0 com.rnapp/.MainActivity)/@0x4ab120e sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.rnapp/.MainActivity},
+09-12 17:10:24.937   664   721 V WindowManager:         {m=CLOSE f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{68396130 u0 com.rnapp/.SplashActivity)/@0xda6a009 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.rnapp/.SplashActivity}
+09-12 17:10:24.937   664   721 V WindowManager:     ]}
+09-12 17:10:24.937   952  1162 V WindowManagerShell: onTransitionReady(transaction=2851858287981)
+09-12 17:10:24.938   952  1090 V WindowManagerShell: onTransitionReady (#103) android.os.BinderProxy@8114f8: {id=103 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-12 17:10:24.938   952  1090 V WindowManagerShell:         {m=OPEN f=STARTING_WINDOW_TRANSFER|FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{250529079 u0 com.rnapp/.MainActivity)/@0xac61b37 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=-1->0 r=-1->0:-1 bc=fffafafa component=com.rnapp/.MainActivity},
+09-12 17:10:24.938   952  1090 V WindowManagerShell:         {m=CLOSE f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{68396130 u0 com.rnapp/.SplashActivity)/@0x62e88a4 sb=Rect(0, 0 - 1344, 2992) eb=Rect(0, 0 - 1344, 2992) epz=Point(1344, 2992) d=0 bc=fffafafa component=com.rnapp/.SplashActivity}
+09-12 17:10:24.938   952  1090 V WindowManagerShell:     ]}
+09-12 17:10:24.939   952  1090 V WindowManagerShell: Non-visible anim so abort: (#103) android.os.BinderProxy@8114f8@0
+09-12 17:10:24.943   952  1090 V WindowManagerShell: Transition animation finished (aborted=true), notifying core (#103) android.os.BinderProxy@8114f8@0
+09-12 17:10:24.953   664   721 V WindowManager: Finish Transition (#103): created at 09-12 17:10:24.788 collect-started=0.226ms request-sent=11.419ms started=15.796ms ready=144.926ms sent=147.674ms commit=9.238ms finished=164.054ms
+09-12 17:10:24.955   952  1090 V WindowManagerShell: Track 0 became idle
+09-12 17:10:24.955   952  1090 V WindowManagerShell: All active transition animations finished
+09-12 17:10:24.970  7217  7217 E TransactionExecutor: Failed to execute the transaction: tId:238963298 ClientTransaction{
+09-12 17:10:24.970  7217  7217 E TransactionExecutor: tId:238963298   transactionItems=[
+09-12 17:10:24.970  7217  7217 E TransactionExecutor: tId:238963298     LaunchActivityItem{activityToken=android.os.BinderProxy@bbb1be7,intent=Intent { flg=0x10000000 xflg=0x4 cmp=com.rnapp/.MainActivity (has extras) },ident=250529079,info=ActivityInfo{aafa418 com.rnapp.MainActivity},curConfig={1.0 310mcc260mnc [en_US] ldltr sw448dp w448dp h997dp 480dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1344, 2992) mAppBounds=Rect(0, 0 - 1344, 2992) mMaxBounds=Rect(0, 0 - 1344, 2992) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.3 s.33 fontWeightAdjustment=0},overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw448dp w448dp h997dp 480dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1344, 2992) mAppBounds=Rect(0, 0 - 1344, 2992) mMaxBounds=Rect(0, 0 - 1344, 2992) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.3 s.2 fontWeightAdjustment=0},deviceId=0,referrer=com.rnapp,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@27f37f5,shareableActivityToken=android.os.BinderProxy@fb5a98a,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1344, 2992), taskFragmentBounds=Rect(0, 0 - 1344, 2992)}}
+09-12 17:10:24.970  7217  7217 E TransactionExecutor: tId:238963298     ResumeActivityItem{mActivityToken=android.os.BinderProxy@bbb1be7,procState=-1,isForward=true,shouldSendCompatFakeFocus=false}
+09-12 17:10:24.970  7217  7217 E TransactionExecutor: tId:238963298     Target activity: Not found for token: android.os.BinderProxy@bbb1be7
+09-12 17:10:24.970  7217  7217 E TransactionExecutor: tId:238963298   ]
+09-12 17:10:24.970  7217  7217 E TransactionExecutor: tId:238963298 }
+09-12 17:10:24.970  7217  7217 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: FATAL EXCEPTION: main
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: Process: com.rnapp, PID: 7217
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.rnapp/com.rnapp.MainActivity}: java.lang.NullPointerException: Parameter specified as non-null is null: method com.facebook.react.defaults.DefaultReactActivityDelegate.<init>, parameter mainComponentName
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4186)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4467)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2823)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:248)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: Caused by: java.lang.NullPointerException: Parameter specified as non-null is null: method com.facebook.react.defaults.DefaultReactActivityDelegate.<init>, parameter mainComponentName
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at com.facebook.react.defaults.DefaultReactActivityDelegate.<init>(Unknown Source:7)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at com.rnapp.MainActivity$createReactActivityDelegate$1.<init>(MainActivity.kt:21)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at com.rnapp.MainActivity.createReactActivityDelegate(MainActivity.kt:21)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at com.facebook.react.ReactActivity.<init>(ReactActivity.java:42)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at com.rnapp.MainActivity.<init>(MainActivity.kt:9)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1443)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4173)
+09-12 17:10:24.974  7217  7217 E AndroidRuntime: 	... 13 more
+09-12 17:10:24.984   664  1965 W ActivityTaskManager:   Force finishing activity com.rnapp/.MainActivity
+09-12 17:10:24.985   664  7237 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+09-12 17:10:24.989   497   753 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-12 17:10:24.990  1070  1070 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=false newVisibility=true
+09-12 17:10:24.998   952  1090 V WindowManagerShell: Transition requested (#104): android.os.BinderProxy@aecc9c2 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=41 effectiveUid=10216 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.rnapp/.SplashActivity } baseActivity=ComponentInfo{com.rnapp/com.rnapp.MainActivity} topActivity=ComponentInfo{com.rnapp/com.rnapp.MainActivity} origActivity=null realActivity=ComponentInfo{com.rnapp/com.rnapp.SplashActivity} numActivities=1 lastActiveTime=2895772 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@a5733d3} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{11d8b10 com.rnapp.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(346, 863 - 998, 2207) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1344, 2992) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 104 }
+09-12 17:10:25.002  7217  7217 I Process : Sending signal. PID: 7217 SIG: 9
+09-12 17:10:25.010  1070  1070 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+09-12 17:10:25.011   497   497 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-12 17:10:25.012  1070  1070 D BaseDepthController: mSurface is not valid
+09-12 17:10:25.045   664   767 I ActivityManager: Process com.rnapp (pid 7217) has died: fg  TOP 
+09-12 17:10:25.046   499   499 I adbd    : Remote process closed the socket (on MSG_PEEK)
+09-12 17:10:25.049   664   732 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10216/pid_7217
+09-12 17:10:25.052   448   448 I Zygote  : Process 7217 exited due to signal 9 (Killed)
+09-12 17:10:25.054  1070  1070 D BaseDepthController: setSurface:
+09-12 17:10:25.054  1070  1070 D BaseDepthController: 	mWaitingOnSurfaceValidity: true
+09-12 17:10:25.054  1070  1070 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xa182c93
