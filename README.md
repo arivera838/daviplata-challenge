@@ -25,27 +25,6 @@ Aplicación móvil bancaria híbrida construida bajo una arquitectura **Brownfie
 
 ---
 
-## 🏛️ Arquitectura del Sistema
-
-La solución adopta un patrón **Clean Architecture / Brownfield Bridge**:
-
-[ React Native Layer ]  -->  Cifrado de Payload (cryptoUtils)
-│
-▼
-[ Native Bridge (SecurityBridgeModule) ]  -->  Validación de Sesión & Despacho
-│
-├─► Android Keystore / CryptoUtil (AES-256-GCM)
-├─► SessionManager (EncryptedSharedPreferences + TTL)
-└─► Navegación Nativa (MainActivity Intents con banderas de limpieza)
-
-Cada bundle de React Native funciona como una vista aislada:
-- **`LoginBundle`**: Solicita credenciales, genera el payload cifrado y lo envía a través de `SecurityBridge.sendNativeEvent('LOGIN_SUCCESS', encryptedData)`.
-- **`HomeBundle`**: Descifra y muestra los datos del usuario, su saldo disponible y accesos directos.
-- **`TransferBundle`**: Valida montos y destinatarios, cifra la transacción y la remite al nativo.
-- **`MovementsBundle`**: Lee y descifra en tiempo real el historial de transferencias registradas en la sesión activa.
-
----
-
 ## 📁 Estructura del Proyecto
 
 ```text
